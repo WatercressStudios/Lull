@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/00-start.rpy", line 63: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        "While unpacking Ezekiel's wagon, I can't help but keep looking at the 
+
+Ren'Py Version: Ren'Py 6.17.7.521

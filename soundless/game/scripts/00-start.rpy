@@ -60,7 +60,7 @@ label start:
     b "So, are you going to keep looking, or are you going to help out?"
     t "Oh, right. I'll get right on that."
     
-    "While unpacking Ezekiel's wagon, I can't help but keep looking at the 
+     "While unpacking Ezekiel's wagon, I can't help but looking at my surroundings when there's a chance. It's nothing like the desolate wasteland we had heard about."
     
     
     return
