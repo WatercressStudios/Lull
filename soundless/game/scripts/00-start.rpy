@@ -95,5 +95,42 @@ label start:
     "Two people are left now. Salisbury and Crenshaw. I haven't spoken to either of them, though I've heard brief mentions of them."
     "Salisbury is a kind man who enjoys helping others. Crenshaw seemed to be quite different. The others said he was on the aggressive side and of a high socioeconomic status. I'll have to see for myself, but he seems like someone whose bad side you don't want to be on."
     "It's probably best to find Salisbury first."
+     
+    "Walking towards the other wagons, I see someone who must be Salisbury. Brown hair, muscular, tanned. That's all the other information going around about him."
+    "It's probably best to call out to him and say who I am first to avoid any awkwardness. Anyway, none of us are that familiar with each other."
     
+    t "Hello, Salisbury? I'm Cornelius Thatcher. Do you need any assistance?"
+    s "Well met, Thatcher! I could indeed use your help. There's a lot to unpack. You wouldn't mind some friendly talking, would you?"
+    t "No, not at all. So, what do you think of everything so far?"
+    s "Things aren't nearly as bad as I had expected. In all honesty, I can already see this as a home for all of us. We're not finished yet, there's still plenty to do, but if we can all get along, this community will thrive." 
+    t "I hear you. As soon as I stepped out of my wagon, I was met with a beautiful vista, the brightly shining sun, and a chance for the opportunity to create a new life for everyone here. Yet, that path will certainly be difficult."
+    
+    "Salisbury has a moderate amount of belongings to unpack, but the time passes quite quickly while talking. He certainly seems like an amicable person, if a bit a naive."
+    
+    s "Cornelius, before I forget, you can call me Ichabod. I feel like we're already getting along well enough to cut out the formalities."
+    t "Alright, Ichabod, I need to get going now. Crenshaw may need some assistance."
+    s "If I may say this: there's something slightly off about Crenshaw. Couldn't specify what, but he doesn't think like the rest of us. It's probably nothing, but perhaps just keep that in mind."
+    t "I'll be sure to remember that. Until then, Ichabod."
+    s "Goodbye, Cornelius."
+    
+    "What did Ichabod mean by that? People think differently, but is it going to make that much an impact on myself and everyone else? I don't think so. Crenshaw should be given a fair chance."
+    
+    "As I walk up to the last wagon, someone, presumably Crenshaw, calls out to me."
+    
+    c "Who's there? Are you one of the other settlers?"
+    t "Yes, Crenshaw, I'm one of the settlers. Thatcher, Cornelius Thatcher. Came over to see if you needed any help with unpacking."
+    c "Oh, very well then. You can help, but make sure you don't drop or break anything!"
+    t "Why would I even think of doing that? These things are your belongings, it's only right to make sure they stay intact."
+    c "You can't be too sure with some people... In any case, the assistance is appreciated." 
+    
+    "It takes some time to unpack Crenshaw's belongings. He seems to have far more than he needs in multiple areas: suits, shoes, jewelry, etc. I probably shouldn't inquire about that."
+    
+    c "Before you go, you should at least know my name, if we're all going to be living together. It's Terrence."
+    t "Alright, Terrance. I have to get going now, but we'll definitely meet again."
+    
+    "Terrence Crenshaw didn't seem that different to me, besides the slightly different introduction."
+    "Time will have to tell what will become of him, the community, all of us. We can't afford to be going after each other."
+    "While we all may be able to get along decently, a lot of us seem wary of the railroad crew in the area."
+    
+    "The crew has been making a lot of noise over the past few hours, and they seem to be making little to no progress. Even Phineas
     return
