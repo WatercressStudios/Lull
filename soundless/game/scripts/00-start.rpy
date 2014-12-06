@@ -8,6 +8,11 @@ define e = Character('Eileen', color="#c8ffc8")
 
 
 # The game starts here.
+
+## Note from Kyle: This file should contain the introduction, and then call the first scene. 
+##   Scene 1 should probably belong in 01-scene-name.rpy
+## Feel free to rename the files as you see fit, as long as it makes sense
+
 label start:
 
     e "You've created a new Ren'Py game."
