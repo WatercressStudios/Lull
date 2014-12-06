@@ -10,7 +10,7 @@
 # TheDwarfLard
 
 # Image declaration.
-image bg pioneers = "images/bg_pioneers.png"
+image bg pioneers = "images/bg_scene1.png"
 
 # Character declaration.
 # GENERATION ONE.
