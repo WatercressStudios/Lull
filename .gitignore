@@ -59,3 +59,7 @@ target/
 # Ren'Py
 *.rpy[bc]
 *.bak
+soundless/tmp/*
+soundless/log.txt
+soundless/game/saves/*
+

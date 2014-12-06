@@ -137,7 +137,7 @@ init -1 python hide:
 
     ## The file containing the default font.
 
-    # style.default.font = "DejaVuSans.ttf"
+    style.default.font = "fonts/Caudex-Regular.ttf"
 
     ## The default size of text.
 
