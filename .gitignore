@@ -62,4 +62,4 @@ target/
 soundless/tmp/*
 soundless/log.txt
 soundless/game/saves/*
-
+soundless/errors.txt

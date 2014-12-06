@@ -1,9 +1,0 @@
-﻿I'm sorry, but errors were detected in your script. Please correct the
-errors listed below, and try again.
-
-
-File "game/scripts/00-start.rpy", line 63: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    "While unpacking Ezekiel's wagon, I can't help but looking at my surroundings when there's a chance. It's nothing like the desolate wasteland we had heard about."
-    ^
-
-Ren'Py Version: Ren'Py 6.17.7.521
