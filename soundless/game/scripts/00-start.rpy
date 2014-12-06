@@ -10,6 +10,7 @@
 # TheDwarfLard
 
 # Image declaration.
+image bg pioneers = "images/bg_pioneers.png"
 
 # Character declaration.
 # GENERATION ONE.
@@ -31,7 +32,8 @@ define s2 = Character('Dave Salisbury', color="#00CC00")
 
 # The game begins here.
 label start:
-    
+    scene bg pioneers
+
     "I emerged out of the wagon to face the morning sun."
     "The rest of the train was still coming to a stop. It'd taken so long to get here, it felt so strange to say that we'd finally reached our destination."
     "I tested the ground by crushing some grass underfoot. Dropping my rucksack, I stretched out and sucked in a breath of fresh air."
