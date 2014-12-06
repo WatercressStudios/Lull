@@ -14,13 +14,13 @@
 # Character declaration.
 # GENERATION ONE.
 define t = Character('Cornelius Thatcher', color="#33CCFF")
-define b = Character('Ezekiel Barrow,' color="#D14719")
+define b = Character('Ezekiel Barrow', color="#D14719")
 define c = Character('Terrence Crenshaw', color="#FFCC00")
 define g = Character('Temperance Goodwinson', color="#FF0099")
 define s = Character('Ichabod Salisbury', color="#00CC00")
 # GENERATION TWO.
 define t2 = Character('Alexander Thatcher', color="#33CCFF")
-define b2 = Character('Kevin Barrow,' color="#D14719")
+define b2 = Character('Kevin Barrow', color="#D14719")
 define c2 = Character('Jared Crenshaw', color="#FFCC00")
 define g2 = Character('Kathleen Goodwinson', color="#FF0099")
 define s2 = Character('Dave Salisbury', color="#00CC00")
@@ -60,7 +60,7 @@ label start:
     b "So, are you going to keep looking, or are you going to help out?"
     t "Oh, right. I'll get right on that."
     
-     "While unpacking Ezekiel's wagon, I can't help but looking at my surroundings when there's a chance. It's nothing like the desolate wasteland we had heard about."
+    "While unpacking Ezekiel's wagon, I can't help but looking at my surroundings when there's a chance. It's nothing like the desolate wasteland we had heard about."
     
     
     return
