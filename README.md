@@ -1,4 +1,5 @@
 soundless-game
 ==============
-Our entry for Ludum Dare Jame 2014
+Our entry for Ludum Dare 31.
 
+Copyright (C) Watercress Studios 2014
