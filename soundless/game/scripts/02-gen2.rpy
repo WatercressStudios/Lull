@@ -18,7 +18,7 @@ label gen2:
     
     # if answered North
     if northsouth == 0:
-        "I open the door. Temperance Goodwinson's on the other side, covering her eyes with her hand."
+        "I open the door. Temperance Goodwin's on the other side, covering her eyes with her hand."
         
         menu:
             g "You're not decent, are you? Get decent, Cornelius."
@@ -107,7 +107,7 @@ label gen2:
     
     # northsouth == 3: Doesn't matter
     else:
-        "I open the door. Ichabod Salisbury's on the other side, shuffling his feet nervously. He perks up and gives a toothy grin when he sees me."
+        "I open the door. Ichabod Sedgewood's on the other side, shuffling his feet nervously. He perks up and gives a toothy grin when he sees me."
 
         s "Cornelius, m'boy! Is wearing long johns at 10 in the morning some crazy eastern fashion, or are you just getting lazier on me?"
 
@@ -115,11 +115,11 @@ label gen2:
 
         t "Don't lose your head over it, Ichabod."
 
-        "I chuckle, but quickly stop. Of all the things that just don't sound right anymore, laughter's the worst of them. I start putting on work clothes. Salisbury stamps his foot and scowls."
+        "I chuckle, but quickly stop. Of all the things that just don't sound right anymore, laughter's the worst of them. I start putting on work clothes. Sedgewood stamps his foot and scowls."
 
         s "Why do people keep telling me that?"
 
-        "I can tell Salisbury is straining to speak at a normal level. In fact, he's overcompensating by speaking a little too loud, and a little too desperate."
+        "I can tell Sedgewood is straining to speak at a normal level. In fact, he's overcompensating by speaking a little too loud, and a little too desperate."
 
         t "Does your boy want to help out at the construction site today? My crew's always glad to have him."
 

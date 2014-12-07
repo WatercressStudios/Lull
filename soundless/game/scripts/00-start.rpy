@@ -24,22 +24,22 @@ image bg goodend = "bg_gen9_goodend.png"
 image bg badend = "bg_gen9_badend.png"
 
 # Character declaration.
-# GENERATION ONE MAIN.
+# ACT ONE MAIN.
 define t = Character('Cornelius Thatcher', color="#33CCFF")
 define b = Character('Phineas Barrow', color="#D14719")
 define c = Character('Terrence Crenshaw', color="#FFCC00")
-define g = Character('Temperance Goodwinson', color="#FF0099")
-define s = Character('Ichabod Salisbury', color="#00CC00")
-# GENERATION ONE'S CHILDREN
+define g = Character('Temperance Goodwin', color="#FF0099")
+define s = Character('Ichabod Sedgewood', color="#00CC00")
+# ACT ONE'S CHILDREN
 define gt = Character('Grace Thatcher', color="#66CCFF")
-# GENERATION TWO MAIN.
+# ACT TWO MAIN.
 define t2 = Character('Alex Thatcher', color="#33CCFF")
-define b2 = Character('Kevin Barrow', color="#D14719")
+define b2 = Character('Phineas Barrow VII', color="#D14719")
 define c2 = Character('Jared Crenshaw', color="#FFCC00")
-define g2 = Character('Kathleen Goodwinson', color="#FF0099")
-define s2 = Character('Dave Salisbury', color="#00CC00")
+define g2 = Character('Kathleen Goodwin', color="#FF0099")
+define s2 = Character('Dave Sedgewood', color="#00CC00")
 
-# Variable declarations (so we can keep track of which vars we are using)
+# Variable declaration. (so we can keep track of which vars we are using)
 $ northsouth = 0
 
 # The game begins here.
