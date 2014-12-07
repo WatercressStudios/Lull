@@ -33,6 +33,9 @@ label gen1:
 
     "We pull some tables together and cram as many workers around it as possible, and they all drink to Phineas Barrow and the Snake River Line and Pacific Star Railways until they stagger back to their tents."
 
+    show bg gen1_night
+    with dissolve
+    
     "As the singing of workers and settlers drones into the distance, I find myself around a table with four of my new neighbors."
     
     "Phineas Barrow, the young golden boy of Pacific Star Railways."
