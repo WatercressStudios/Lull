@@ -279,52 +279,52 @@ label gen3:
             t "Go back inside. I don't want to see you bury any more sons."
             $ success = -1
             
-        if success > 0:
-            $ unity += 1
-            "Ichabod's mouth opens and he tries to say something to me. He tries to speak again. And then he crumbles in on himself."
+    if success > 0:
+        $ unity += 1
+        "Ichabod's mouth opens and he tries to say something to me. He tries to speak again. And then he crumbles in on himself."
 
-                s "Yes. No more."
+        s "Yes. No more."
 
-                "He jabs two signs at Crenshaw."
+        "He jabs two signs at Crenshaw."
 
-                s "Another day."
-                
-                if MT:
-                    "Once the Crenshaw homestead is a speck in the distance, I take Temperance in my arms and hold her for a long time."
+        s "Another day."
+        
+        if MT:
+            "Once the Crenshaw homestead is a speck in the distance, I take Temperance in my arms and hold her for a long time."
 
-                    "When I get home, Grace is still keeping watch on the door."
+            "When I get home, Grace is still keeping watch on the door."
 
-                    t "No monsters, Gracie. Just friends coming home."
-                    
-                    if GM: # got meat
-                        "Grace shakes her head and taps her foot impatiently."
-
-                        gt "Have to kill the monsters."
-                    else:
-                        gt "Food?"
-
-                        "I promised Grace food. Lord have mercy, I promised I'd bring back food."
-        else: #failure
-            $ unity -= 1
-            if success == -1:
-                if not FC:
-                    "Crenshaw's bum leg trembles. He slumps back into his rocking chair."
-                    c "I asked you here to witness, Cornelius. It's time for you to go."
-                else:
-                    "Crenshaw's bum leg trembles. He slumps back into his rocking chair."
-                    c "Of course, Cornelius. You are right. I must think of my family."
-                    c "Ichabod. Listen to our friend. Let us settle this in court, like civilized people."
-
-                "Ichabod gives him a sad smile."
-                s "They're my boys, Terrence. Love 'em like my own sons."
+            t "No monsters, Gracie. Just friends coming home."
             
-            "I grab Temperance by the arm and put every ounce of strength into my legs."
+            if GM: # got meat
+                "Grace shakes her head and taps her foot impatiently."
 
-            "As I glance back, the morning sun outshines the flash of a dozen muzzles. Without the crack of gunfire, the Sedgewoods and the Crenshaws look like children acting out a play battle."
+                gt "Have to kill the monsters."
+            else:
+                gt "Food?"
 
-            "When I look away, I can almost convince myself that my old friends will dust themselves off and stand back up again."
-
-            if not GM:
-                # we should probably have a pause here /Kyle
                 "I promised Grace food. Lord have mercy, I promised I'd bring back food."
-            
+    else: #failure
+        $ unity -= 1
+        if success == -1:
+            if not FC:
+                "Crenshaw's bum leg trembles. He slumps back into his rocking chair."
+                c "I asked you here to witness, Cornelius. It's time for you to go."
+            else:
+                "Crenshaw's bum leg trembles. He slumps back into his rocking chair."
+                c "Of course, Cornelius. You are right. I must think of my family."
+                c "Ichabod. Listen to our friend. Let us settle this in court, like civilized people."
+
+            "Ichabod gives him a sad smile."
+            s "They're my boys, Terrence. Love 'em like my own sons."
+        
+        "I grab Temperance by the arm and put every ounce of strength into my legs."
+
+        "As I glance back, the morning sun outshines the flash of a dozen muzzles. Without the crack of gunfire, the Sedgewoods and the Crenshaws look like children acting out a play battle."
+
+        "When I look away, I can almost convince myself that my old friends will dust themselves off and stand back up again."
+
+        if not GM:
+            # we should probably have a pause here /Kyle
+            "I promised Grace food. Lord have mercy, I promised I'd bring back food."
+        

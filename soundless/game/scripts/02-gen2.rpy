@@ -249,10 +249,11 @@ label gen2:
 
             # IF FRIENDS WITH CRENSHAW
             elif northsouth = 1:
+                $ FC = True
                 g "How shortsighted can you people be? Are we expected to grunt at each other like savages?"
                 c "My, my, Cornelius, our schoolmarm is all a-fluster. Perhaps she needs to calm down at home."
                 "Mrs. Goodwin balls her fists as if to strike Crenshaw, then forces herself away and storms out of the room without a word."
-                openness -= 1
+                $ openness -= 1
 
             # IF FRIENDS WITH ICHABOD
             else:
@@ -264,10 +265,10 @@ label gen2:
                 b "Let's go outside and tell our town what's what."
 
         "Take the Paper":
-            # GM is not set to true -> GM is true
-            GM = False
+            # GM is not set to true -> GP is true
+            $ GM = False
             t "I've seen hunger before, and I hope to never see it again. But a world where we can't communicate with each other… that's a nightmare I never want to face. We'd be animals."
-            openness += 2
+            $ openness += 2
 
             # IF FLIRTING WITH TEMPERANCE
             if MT:
@@ -275,8 +276,9 @@ label gen2:
 
             # IF FRIENDS WITH CRENSHAW
             elif northsouth == 1:
+                $ DC = True
                 c "I never thought you were the sort to be ordered around by a schoolmarm, Cornelius. It's rather a disappointment."
-                unity -= 1
+                $ unity -= 1
 
             # OTHERWISE
             else:

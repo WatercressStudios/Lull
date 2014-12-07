@@ -39,21 +39,21 @@ define c2 = Character('Jared Crenshaw', color="#FFCC00")
 define g2 = Character('Kathleen Goodwin', color="#FF0099")
 define s2 = Character('Dave Sedgewood', color="#00CC00")
 
-# Variable declarations (so we can keep track of which vars we are using)
-python:
-    northsouth = 0
-    unity = 0
-    openness = 0
-    #For the below:
-    MT = False # Married Temperance (North + Flirt)
-    FG = False # Friend of Goodwin (North + Be Respectful)
-    FS = False # Friend of Sedgewood (It Doesn't Matter)
-    FC = False # Friend of Crenshaw (South + Meat)
-    DC = False # Disappointed Crenshaw (South + Paper)
-    GM = False # True = Got Meat, False = Got Paper
-
 # The game begins here.
 label start:
+    # Variable declarations (so we can keep track of which vars we are using)
+    python:
+        northsouth = 0
+        unity = 0
+        openness = 0
+        # For the below:
+        MT = False # Married Temperance (North + Flirt)
+        FG = False # Friend of Goodwin (North + Be Respectful)
+        FS = False # Friend of Sedgewood (It Doesn't Matter)
+        FC = False # Friend of Crenshaw (South + Meat)
+        DC = False # Disappointed Crenshaw (South + Paper)
+        GM = False # True = Got Meat, False = Got Paper
+
     # Introduction goes here if any
     jump gen1
     
