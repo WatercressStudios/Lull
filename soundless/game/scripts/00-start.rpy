@@ -14,18 +14,19 @@
 image bg gen1_day = "images/bg_gen1_day.png"
 
 # Character declaration.
-# GENERATION ONE.
+# GENERATION ONE MAIN.
 define t = Character('Cornelius Thatcher', color="#33CCFF")
 define b = Character('Phineas Barrow', color="#D14719")
 define c = Character('Terrence Crenshaw', color="#FFCC00")
 define g = Character('Temperance Goodwinson', color="#FF0099")
 define s = Character('Ichabod Salisbury', color="#00CC00")
-# GENERATION TWO.
+# GENERATION ONE'S CHILDREN
+define gt = Character('Grace Thatcher', color="#66CCFF")
+# GENERATION TWO MAIN.
 define t2 = Character('Alex Thatcher', color="#33CCFF")
 define b2 = Character('Kevin Barrow', color="#D14719")
 define c2 = Character('Jared Crenshaw', color="#FFCC00")
 define g2 = Character('Kathleen Goodwinson', color="#FF0099")
-# we'll assume Goodwinson was Temperance's married name
 define s2 = Character('Dave Salisbury', color="#00CC00")
 
 ## Note from Kyle: This file should contain the introduction, and then call the first scene. 
