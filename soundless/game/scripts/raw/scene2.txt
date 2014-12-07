@@ -18,142 +18,279 @@ Said "South"
 Said "It doesn't matter"
 
 1.
-    I open the door. Temperance Goodwinson's on the other side, covering her eyes with her hand.
+I open the door. Temperance Goodwin's on the other side, covering her eyes with her hand.
 
-    g "You're not decent, are you? Get decent, Cornelius."
+g "You're not decent, are you? Get decent, Cornelius."
 
-    DECISION
-    Flirt
-    Be respectful
+DECISION
+Flirt
+Be respectful
 
-    1. 
-        t "You've never dreamt of seeing me in my long johns, Temperance?
+1. 
+t "You've never dreamt of seeing me in my long johns, Temperance?
 
-        g "Cornelius!"
+g "Cornelius!"
 
-        Temperance turns red and balls her fists in anger. She realizes a moment too late that she can see me now. She stuffs her fists back over her eyes.
+Temperance turns red and balls her fists in anger. She realizes a moment too late that she can see me now. She stuffs her fists back over her eyes.
 
-        I roar with laughter, but quickly stop. Of all the things that just don't sound right anymore, laughter's the worst of them. I start putting on work clothes.
+I roar with laughter, but quickly stop. Of all the things that just don't sound right anymore, laughter's the worst of them. I start putting on work clothes.
 
-    2.
-        t "Long johns is decent among friends, Temperance."
+2.
+t "Long johns is decent among friends, Temperance."
 
-        She's rolling her eyes behind her hand, no doubt about it. I start putting on work clothes.
+She's rolling her eyes behind her hand, no doubt about it. I start putting on work clothes.
 
-    /DECISION
+/DECISION
 
-    g "Blue jeans, Cornelius? I said decent."
+g "Blue jeans, Cornelius? I said decent."
 
-    I can tell Temperance is straining her voice to speak at a normal level.
+I can tell Temperance is straining her voice to speak at a normal level.
 
-    For someone who talks about the Lord's will as often as Temperance, she sure can't take a hint that the Lord wants us to be quiet.
+For someone who talks about the Lord's will as often as Temperance, she sure can't take a hint that the Lord wants us to be quiet.
 
-    t "Does your boy want to help out at the construction site today? My crew's always glad to have him."
+t "Does your boy want to help out at the construction site today? My crew's always glad to have him."
 
-    g "Not today. We're meeting at Barrow's office. To discuss the… thing."
+g "Not today. We're meeting at Barrow's office. To discuss the… thing."
 
-    t "Who's we, and what thing?"
+t "Who's we, and what thing?"
 
-    g "Oh, you know, just some pillars of the community. And you know what thing."
+g "Oh, you know, just some pillars of the community. And you know what thing."
 
-    I do. There's only one thing worth discussing these days.
+I do. There's only one thing worth discussing these days.
 
-    The Recent Change, they call it euphemistically. The Lull, they call it optimistically.
+The Recent Change, they call it euphemistically. The Lull, they call it optimistically.
 
-    A "Lull" would end. And ever since the world started going quiet, it has shown no sign of reversing course.
+A "Lull" would end. And ever since the world started going quiet, it has shown no sign of reversing course.
 
-    When we arrive at Barrow's office, a crowd has already gathered.
+When we arrive at Barrow's office, a crowd has already gathered.
 
-    t "Just pillars of the community, eh?"
+t "Just pillars of the community, eh?"
 
-    Temperance shrugs.
+Temperance shrugs.
 
-    g "Every good citizen is a pillar, I suppose."
+g "Every good citizen is a pillar, I suppose."
 
-    The crowd parts as we approach. Every man doffs their cap to Temperance-- she's a teacher, after all, and even grown men never quite lose that fear and respect you have for a schoolmarm.
+The crowd parts as we approach. Every man doffs their cap to Temperance-- she's a teacher, after all, and even grown men never quite lose that fear and respect you have for a schoolmarm.
 
-    A fair few doff their caps to me as well. It's an honor hard earned; I've built half the houses in this town, and half of those with my own hands.
+A fair few doff their caps to me as well. It's an honor hard earned; I've built half the houses in this town, and half of those with my own hands.
 
 
 2.
-    I open the door. Terrence Crenshaw's on the other side, impatiently bouncing his leg up and down like his kneecap's trying to escape.
+I open the door. Terrence Crenshaw's on the other side, impatiently bouncing his leg up and down like his kneecap's trying to escape.
 
-    c "Still in your long johns, Cornelius? Honestly, I'm worried that bed will swallow you whole one day.
+c "Still in your long johns, Cornelius? Honestly, I'm worried that bed will swallow you whole one day.
 
-    He knows as well as I do why the train doesn't wake me anymore. It's rare to hear someone make light of it though. And, to be honest, a bit of a relief.
+He knows as well as I do why the train doesn't wake me anymore. It's rare to hear someone make light of it though. And, to be honest, a bit of a relief.
 
-    I chuckle, but quickly stop. Of all the things that just don't sound right anymore, laughter's the worst of them. I start putting on work clothes.
+I chuckle, but quickly stop. Of all the things that just don't sound right anymore, laughter's the worst of them. I start putting on work clothes.
 
-    t "Are you going hunting today? I could leave Willet in charge of the construction site if you need an extra rifle."
+t "Are you going hunting today? I could leave Willet in charge of the construction site if you need an extra rifle."
 
-    c "Another time, gladly, but today duty calls. And by duty I mean Phineas Barrow. He wants a few of us for a meeting."
+c "Another time, gladly, but today duty calls. And by duty I mean Phineas Barrow. He wants a few of us for a meeting."
 
-    Terrence's voice is unnaturally quiet, and he doesn't bother raising it. I think he likes when people have to lean in and listen close to hear him.
+Terrence's voice is unnaturally quiet, and he doesn't bother raising it. I think he likes when people have to lean in and listen close to hear him.
 
-    t "Who's us? And what's this meeting about?"
+t "Who's us? And what's this meeting about?"
 
-    c "Us as in a select handful of local notables. And you know what the meeting's about."
+c "Us as in a select handful of local notables. And you know what the meeting's about."
 
-    I do. There's only one thing worth discussing these days.
+I do. There's only one thing worth discussing these days.
 
-    The Recent Change, they call it euphemistically. The Lull, they call it optimistically.
+The Recent Change, they call it euphemistically. The Lull, they call it optimistically.
 
-    A "Lull" would end. And ever since the world started going quiet, it has shown no sign of reversing course.
+A "Lull" would end. And ever since the world started going quiet, it has shown no sign of reversing course.
 
-    When we arrive at Barrow's office, a crowd has already gathered.
+When we arrive at Barrow's office, a crowd has already gathered.
 
-    t "A select handful of local notables, I believe you said?"
+t "A select handful of local notables, I believe you said?"
 
-    c "What can I say? Notability just keeps lowering its standards, apparently."
+c "What can I say? Notability just keeps lowering its standards."
 
-    The crowd parts as we approach. Some folks doff their caps to Crenshaw-- his tales of military derring-do have made him a legend down at the tavern.
+The crowd parts as we approach. Some folks doff their caps to Crenshaw-- his tales of military derring-do have made him a legend down at the tavern.
 
-    Besides, whenever he comes back from hunting he saves the best cuts of meat for his friends.
+Besides, whenever he comes back from hunting he saves the best cuts of meat for his friends.
 
-    A fair few doff their caps to me as well. It's an honor hard earned; I've built half the houses in this town, and half of those with my own hands.
+A fair few doff their caps to me as well. It's an honor hard earned; I've built half the houses in this town, and half of those with my own hands.
 
 3.
-    I open the door. Ichabod Salisbury's on the other side, shuffling his feet nervously. He perks up and gives a toothy grin when he sees me.
+I open the door. Ichabod Sedgewood's on the other side, shuffling his feet nervously. He perks up and gives a toothy grin when he sees me.
 
-    s "Cornelius, m'boy! Is wearing long johns at 10 in the morning some crazy eastern fashion, or are you just getting lazier on me?
+s "Cornelius, m'boy! Is wearing long johns at 10 in the morning some crazy eastern fashion, or are you just getting lazier on me?
 
-    He knows as well as I do why the train doesn't wake me anymore. It's rare to hear someone make light of it though. And, to be honest, a bit of a relief.
+He knows as well as I do why the train doesn't wake me anymore. It's rare to hear someone make light of it though. And, to be honest, a bit of a relief.
 
-    t "Don't lose your head over it, Ichabod."
+t "Don't lose your head over it, Ichabod."
 
-    I chuckle, but quickly stop. Of all the things that just don't sound right anymore, laughter's the worst of them. I start putting on work clothes. Salisbury stamps his foot and scowls.
+I chuckle, but quickly stop. Of all the things that just don't sound right anymore, laughter's the worst of them. I start putting on work clothes. Sedgewood stamps his foot and scowls.
 
-    s "Why do people keep telling me that?"
+s "Why do people keep telling me that?"
 
-    I can tell Salisbury is straining to speak at a normal level. In fact, he's overcompensating by speaking a little too loud, and a little too desperate.
+I can tell Sedgewood is straining to speak at a normal level. In fact, he's overcompensating by speaking a little too loud, and a little too desperate.
 
-    t "Does your boy want to help out at the construction site today? My crew's always glad to have him."
+t "Does your boy want to help out at the construction site today? My crew's always glad to have him."
 
-    s "Oh, I'll have you teach him honest work one of these days, but right now Mr. Barrow's called a few of us for a meeting."
+s "Oh, I'll have you teach him honest work one of these days, but right now Mr. Barrow's called a few of us for a meeting."
 
-    t "Who's us? And what's this meeting about?"
+t "Who's us? And what's this meeting about?"
 
-    s "Why, just us pillars of the community, of course! Imagine, Pacific Star Railways wants to know what this daft old farmer thinks."
+s "Why, just us pillars of the community, of course! Imagine, Pacific Star Railways wants to know what this daft old farmer thinks."
 
-    s "As for what it's about, well, I think you know as well as I do."
+s "As for what it's about, well, I think you know as well as I do."
 
-    I do. There's only one thing worth discussing these days.
+I do. There's only one thing worth discussing these days.
 
-    The Recent Change, they call it euphemistically. The Lull, they call it optimistically.
+The Recent Change, they call it euphemistically. The Lull, they call it optimistically.
 
-    A "Lull" would end. And ever since the world started going quiet, it has shown no sign of reversing course.
+A "Lull" would end. And ever since the world started going quiet, it has shown no sign of reversing course.
 
-    When we arrive at Barrow's office, a crowd has already gathered.
+When we arrive at Barrow's office, a crowd has already gathered.
 
-    t "Just pillars of the community, eh?"
+t "Just pillars of the community, eh?"
 
-    Ichabod shrugs.
+Ichabod shrugs.
 
-    s "More pillars sprout up every time you look."
+s "Everyone wants to be a pillar, I suppose."
 
-    The crowd parts as we approach. Some folks doff their cap to Ichabod. Plenty of them work his fields, and he puts food on everyone's plate.
+The crowd parts as we approach. Some folks doff their cap to Ichabod. Plenty of them work his fields, and he puts food on everyone's plate.
 
-    A fair few doff their caps to me as well. It's an honor hard earned; I've built half the houses in this town, and half of those with my own hands.
+A fair few doff their caps to me as well. It's an honor hard earned; I've built half the houses in this town, and half of those with my own hands.
 
 
 /DIVERGE
+
+Barrow's office smells like sweat. He pumps my hand up and down.
+
+His desk is covered in a thick sheet. I gather around it with the others.
+
+b "Cornelius, my friend. Temperance, Ichabod, Terrence."
+
+I look around the desk at the schoolteacher, the farmer, the hunter. Each rigid with all the poise they can muster for the crowds. Each seething with the same fears and doubts as I am.
+
+b "We have a problem. The same problem as all the world, and yet… problematic in its own way.
+
+Barrow whisks the blanket off his desk as if revealing a gift.
+
+Beneath is a jumbled mound of bloody flesh. The only way I can tell it used to be a railway worker is from the blue jeans poking out of the bottom.
+
+b "Mr. Wilmot, ah… well, he missed the 9:30 train, so to speak."
+
+Poor Wilmot. Whenever Mrs. Goodwin started humming, he'd start humming the same song half a second behind to mess her up. Made me laugh.
+
+Barrow tosses the sheet back over the meat that was Barry Wilmot.
+
+t "I've noticed the train getting quiet, but he can't have heard it at all."
+
+b "My thoughts precisely. Mr. Wilmot was neither hard of hearing nor given to drink. There is but one sensible conclusion."
+
+g "It's getting worse."
+
+b "Yes. Yes. The newspapers will know tomorrow, but… there have been train collisions as well."
+
+c "I see where this is going."
+
+He pushes himself away from the desk and stalks around us in a circle.
+
+c "The stock market's in shambles. The railways aren't safe. Nobody knows what's up or down or if they'll be able to hear themselves talk tomorrow."
+
+c "And Pacific Star is going to leave us in the lurch."
+
+Barrow looks miserable.
+
+b "You've got it all wrong, my friends. Pacific Star isn't abandoning us."
+
+b "They're. Ah. Well. They're shutting down, I'm afraid."
+
+A dense silence falls around the table. Ichabod Sedgewood rushes to fill it by clearing his throat loudly.
+
+s "We made do before the railway. We'll make do after."
+
+b "You're honest folk, and you've done right by the company. So I've pulled what strings I had left to pull, and we'll be getting some of their property in the foreclosure."
+
+g "A nice caboose for my yard, perhaps?"
+
+IF YOU FLIRTED EARLIER:
+t "You've a nice caboose already, Temperance."
+
+She swats me on the arm, hard enough to sting. Ichabod stifles a cackle.
+/
+
+b "Well, Pacific Star had fingers in a lot of pies, so we've got options."
+
+b "One of my favorites is sitting in a railyard in Kansas now: an entire cancelled shipment of preserved pork. It'll last halfway to forever and it's just the thing to keep a hungry settlement growing."
+
+c "Sold. Let's take it."
+
+s "Hold your horses, boy! What other options do we have?"
+
+b "Well, this is a strange one, but appropriate given the… ah… circumstances."
+
+b "The central offices have a lot of paper. A LOT of paper. Fountain pens too. We can have those."
+
+b "Now, normally I'd say meat beats paper…"
+
+g "But you're thinking ahead. If things keep going the way they're going, we're going to need paper and pens. Enough to last us lifetimes."
+
+s "Now, that's just outlandish!"
+
+g "Ichabod, that's just pattern recognition."
+
+c "I'm with the farmer. You can't eat paper and you can't starve on silence."
+
+b "Thatcher?"
+
+c "Come on, Thatcher, let's make this a proper consensus."
+
+DECISION
+Take the meat
+Take the paper
+
+Take the Meat
+t "We need to be prepared, it's true. But we can survive a period of silence while we start making our own paper. We're not in a position to survive a famine."
+
+IF FRIENDS/FLIRTING WITH TEMPERANCE
+g "I don't know if it'll be that simple. Without communication, civilization cannot stand."
+g "I trust you'll bear that in mind, Cornelius. I support the group's decision."
+c "It's so refreshing to see our schoolmarm listen to reason."
+[+1 Unity]
+
+IF FRIENDS WITH CORNELIUS
+g "How shortsighted can you people be? Are we expected to grunt at each other like savages?
+c "My, my, Cornelius, our schoolmarm is all a-fluster. Perhaps she needs to calm down at home."
+Mrs. Goodwin balls her fists as if to strike Crenshaw, then forces herself away and storms out of the room without a word.
+[-1 Openness]
+
+IF FRIENDS WITH ICHABOD
+g "How shortsighted can you people be? Are we expected to grunt at each other like savages?"
+s "C'mon, Temperance, we're only trying to be practical."
+g "God have mercy, this town will choke on your practicality."
+
+b "Well, that settles it. I'll send word to the central office that we'll take the meat."
+b "Let's go outside and tell our town what's what."
+
+Take the Paper
+t "I've seen hunger before, and I hope to never see it again. But a world where we can't communicate with each other… that's a nightmare I never want to face. We'd be animals."
+[+2 Openness]
+
+IF FLIRTING WITH TEMPERANCE
+c "I think my friend Cornelius is rather more taken with the schoolmarm's charms than her logic."
+
+IF FRIENDS WITH CORNELIUS
+c "I never thought you were the sort to be ordered around by a schoolmarm, Cornelius. It's rather a disappointment."
+[-1 Unity]
+
+OTHERWISE
+c "I always rather suspected my friend Cornelius was the sort to be ordered around by a schoolmarm."
+
+Sedgewood shuffles his feet and chews his knuckles.
+s "Mr. Barrow, sir? I'd like to change my vote."
+s "My fields are strong, and they'll feed us for years. Better the devil I know-- I'll take the paper."
+Barrow nods and rubs his hands together.
+b "Well, that settles it. I'll send word to the central office that we'll take the paper."
+b "Let's go outside and tell our town what's what."
+
+/DECISION
+
+Barrow leads the five of us outside. (IF TEMPERANCE STORMED OUT: Barrow leads the four of us outside.)
+
+He raises his voice to address our town, and it takes three tries before they can even hear him speak.
+

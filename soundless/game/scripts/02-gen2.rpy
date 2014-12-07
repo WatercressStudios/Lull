@@ -24,6 +24,8 @@ label gen2:
             g "You're not decent, are you? Get decent, Cornelius."
             
             "Flirt":
+                $ MT = True
+
                 t "You've never dreamt of seeing me in my long johns, Temperance?"
 
                 g "Cornelius!"
@@ -33,6 +35,8 @@ label gen2:
                 "I roar with laughter, but quickly stop. Of all the things that just don't sound right anymore, laughter's the worst of them. I start putting on work clothes."
             
             "Be respectful":
+                $ FG = True
+                
                 t "Long johns is decent among friends, Temperance."
 
                 "She's rolling her eyes behind her hand, no doubt about it. I start putting on work clothes."
@@ -149,4 +153,145 @@ label gen2:
 
         "A fair few doff their caps to me as well. It's an honor hard earned; I've built half the houses in this town, and half of those with my own hands."
         
+    
+    "Barrow's office smells like sweat. He pumps my hand up and down."
+
+    "His desk is covered in a thick sheet. I gather around it with the others."
+
+    b "Cornelius, my friend. Temperance, Ichabod, Terrence."
+
+    "I look around the desk at the schoolteacher, the farmer, the hunter. Each rigid with all the poise they can muster for the crowds. Each seething with the same fears and doubts as I am."
+
+    b "We have a problem. The same problem as all the world, and yet… problematic in its own way."
+
+    "Barrow whisks the blanket off his desk as if revealing a gift."
+
+    "Beneath is a jumbled mound of bloody flesh. The only way I can tell it used to be a railway worker is from the blue jeans poking out of the bottom."
+
+    b "Mr. Wilmot, ah… well, he missed the 9:30 train, so to speak."
+
+    "Poor Wilmot. Whenever Mrs. Goodwin started humming, he'd start humming the same song half a second behind to mess her up. Made me laugh."
+
+    "Barrow tosses the sheet back over the meat that was Barry Wilmot."
+
+    t "I've noticed the train getting quiet, but he can't have heard it at all."
+
+    b "My thoughts precisely. Mr. Wilmot was neither hard of hearing nor given to drink. There is but one sensible conclusion."
+
+    g "It's getting worse."
+
+    b "Yes. Yes. The newspapers will know tomorrow, but… there have been train collisions as well."
+
+    c "I see where this is going."
+
+    "He pushes himself away from the desk and stalks around us in a circle."
+
+    c "The stock market's in shambles. The railways aren't safe. Nobody knows what's up or down or if they'll be able to hear themselves talk tomorrow."
+
+    c "And Pacific Star is going to leave us in the lurch."
+
+    "Barrow looks miserable."
+
+    b "You've got it all wrong, my friends. Pacific Star isn't abandoning us."
+
+    b "They're. Ah. Well. They're shutting down, I'm afraid."
+
+    "A dense silence falls around the table. Ichabod Sedgewood rushes to fill it by clearing his throat loudly."
+
+    s "We made do before the railway. We'll make do after."
+
+    b "You're honest folk, and you've done right by the company. So I've pulled what strings I had left to pull, and we'll be getting some of their property in the foreclosure."
+
+    g "A nice caboose for my yard, perhaps?"
+
+    if MT:
+        t "You've a nice caboose already, Temperance."
+
+        "She swats me on the arm, hard enough to sting. Ichabod stifles a cackle."
+
+    b "Well, Pacific Star had fingers in a lot of pies, so we've got options."
+
+    b "One of my favorites is sitting in a railyard in Kansas now: an entire cancelled shipment of preserved pork. It'll last halfway to forever and it's just the thing to keep a hungry settlement growing."
+
+    c "Sold. Let's take it."
+
+    s "Hold your horses, boy! What other options do we have?"
+
+    b "Well, this is a strange one, but appropriate given the… ah… circumstances."
+
+    b "The central offices have a lot of paper. A LOT of paper. Fountain pens too. We can have those."
+
+    b "Now, normally I'd say meat beats paper…"
+
+    g "But you're thinking ahead. If things keep going the way they're going, we're going to need paper and pens. Enough to last us lifetimes."
+
+    s "Now, that's just outlandish!"
+
+    g "Ichabod, that's just pattern recognition."
+
+    c "I'm with the farmer. You can't eat paper and you can't starve on silence."
+
+    b "Thatcher?"
+
+    menu:
+        c "Come on, Thatcher, let's make this a proper consensus."
+        
+        "Take the Meat":
+            t "We need to be prepared, it's true. But we can survive a period of silence while we start making our own paper. We're not in a position to survive a famine."
+            
+            # IF FRIENDS WITH TEMPERANCE
+            if northsouth == 0:
+                g "I don't know if it'll be that simple. Without communication, civilization cannot stand."
+                g "I trust you'll bear that in mind, Cornelius. I support the group's decision."
+                c "It's so refreshing to see our schoolmarm listen to reason."
+                $ unity += 1
+
+            # IF FRIENDS WITH CRENSHAW
+            elif northsouth = 1:
+                g "How shortsighted can you people be? Are we expected to grunt at each other like savages?"
+                c "My, my, Cornelius, our schoolmarm is all a-fluster. Perhaps she needs to calm down at home."
+                "Mrs. Goodwin balls her fists as if to strike Crenshaw, then forces herself away and storms out of the room without a word."
+                openness -= 1
+
+            # IF FRIENDS WITH ICHABOD
+            else:
+                g "How shortsighted can you people be? Are we expected to grunt at each other like savages?"
+                s "C'mon, Temperance, we're only trying to be practical."
+                g "God have mercy, this town will choke on your practicality."
+
+                b "Well, that settles it. I'll send word to the central office that we'll take the meat."
+                b "Let's go outside and tell our town what's what."
+
+        "Take the Paper":
+            t "I've seen hunger before, and I hope to never see it again. But a world where we can't communicate with each other… that's a nightmare I never want to face. We'd be animals."
+            openness += 2
+
+            # IF FLIRTING WITH TEMPERANCE
+            if MT:
+                c "I think my friend Cornelius is rather more taken with the schoolmarm's charms than her logic."
+
+            # IF FRIENDS WITH CRENSHAW
+            elif northsouth == 1:
+                c "I never thought you were the sort to be ordered around by a schoolmarm, Cornelius. It's rather a disappointment."
+                unity -= 1
+
+            # OTHERWISE
+            else:
+                c "I always rather suspected my friend Cornelius was the sort to be ordered around by a schoolmarm."
+
+            "Sedgewood shuffles his feet and chews his knuckles."
+            s "Mr. Barrow, sir? I'd like to change my vote."
+            s "My fields are strong, and they'll feed us for years. Better the devil I know-- I'll take the paper."
+            "Barrow nods and rubs his hands together."
+            b "Well, that settles it. I'll send word to the central office that we'll take the paper."
+            b "Let's go outside and tell our town what's what."
+
+    if northsouth != 1:
+        "Barrow leads the five of us outside." 
+    else:
+        # IF TEMPERANCE STORMED OUT
+        "Barrow leads the four of us outside."
+
+    "He raises his voice to address our town, and it takes three tries before they can even hear him speak."
+
     jump gen3

@@ -92,6 +92,7 @@ label gen1:
             
         "It doesn't matter.":
             $ northsouth = 2
+            $ FS = True
             t "Barrow’s right. I won’t be nearly drunk enough to talk politics until we get some real liquor here."
             "Barrow claps me on the shoulder. I don’t know if I’ll ever really be used to that from a man who wears a top hat on weekends."
 

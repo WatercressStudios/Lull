@@ -40,7 +40,18 @@ define g2 = Character('Kathleen Goodwinson', color="#FF0099")
 define s2 = Character('Dave Salisbury', color="#00CC00")
 
 # Variable declarations (so we can keep track of which vars we are using)
-$ northsouth = 0
+python:
+    northsouth = 0
+    unity = 0
+    openness = 0
+    #For the below:
+    MT = False # Married Temperance (North + Flirt)
+    FG = False # Friend of Goodwin (North + Be Respectful)
+    FS = False # Friend of Sedgewood (It Doesn't Matter)
+    FC = False # Friend of Crenshaw (South + Meat)
+    DC = False # Disappointed Crenshaw (South + Paper)
+    GP = False # Got Paper
+    GM = False # Got Meat
 
 # The game begins here.
 label start:
