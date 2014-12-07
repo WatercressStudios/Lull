@@ -23,12 +23,12 @@ init -1 python hide:
     ## This controls the title of the window, when Ren'Py is
     ## running in a window.
 
-    config.window_title = u"soundless"
+    config.window_title = u"Lull"
 
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "soundless"
-    config.version = "0.0"
+    config.version = "1.0"
 
     #########################################
     # Themes
@@ -71,7 +71,8 @@ init -1 python hide:
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        mm_root = "#1A0001",
+        #mm_root = "#1A0001",
+        mm_root = "images/bg_title.png",
 
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter

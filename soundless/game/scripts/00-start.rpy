@@ -132,5 +132,5 @@ label start:
     "Time will have to tell what will become of him, the community, all of us. We can't afford to be going after each other."
     "While we all may be able to get along decently, a lot of us seem wary of the railroad crew in the area."
     
-    "The crew has been making a lot of noise over the past few hours, and they seem to be making little to no progress. Even Phineas
+    "The crew has been making a lot of noise over the past few hours, and they seem to be making little to no progress. Even Phineas"
     return
