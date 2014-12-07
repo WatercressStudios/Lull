@@ -8,6 +8,7 @@
 # Electro
 # Axium723
 # TheDwarfLard
+# Luke
 
 # Image declaration.
 image bg gen1_day = "images/bg_gen1_day.png"
@@ -15,15 +16,16 @@ image bg gen1_day = "images/bg_gen1_day.png"
 # Character declaration.
 # GENERATION ONE.
 define t = Character('Cornelius Thatcher', color="#33CCFF")
-define b = Character('Ezekiel Barrow', color="#D14719")
+define b = Character('Phineas Barrow', color="#D14719")
 define c = Character('Terrence Crenshaw', color="#FFCC00")
 define g = Character('Temperance Goodwinson', color="#FF0099")
 define s = Character('Ichabod Salisbury', color="#00CC00")
 # GENERATION TWO.
-define t2 = Character('Alexander Thatcher', color="#33CCFF")
+define t2 = Character('Alex Thatcher', color="#33CCFF")
 define b2 = Character('Kevin Barrow', color="#D14719")
 define c2 = Character('Jared Crenshaw', color="#FFCC00")
 define g2 = Character('Kathleen Goodwinson', color="#FF0099")
+# we'll assume Goodwinson was Temperance's married name
 define s2 = Character('Dave Salisbury', color="#00CC00")
 
 ## Note from Kyle: This file should contain the introduction, and then call the first scene. 
@@ -34,7 +36,7 @@ define s2 = Character('Dave Salisbury', color="#00CC00")
 label start:
     scene bg gen1_day
 
-    "I emerged out of the wagon to face the morning sun."
+    "I emerge out of the wagon to face the morning sun."
     "The rest of the train was still coming to a stop. It'd taken so long to get here, it felt so strange to say that we'd finally reached our destination."
     "I tested the ground by crushing some grass underfoot. Dropping my rucksack, I stretched out and sucked in a breath of fresh air."
     "I could hear chattering voices emerging out behind me as more settlers hopped down from their wagons. It was good to know I was sharing this sight, and I knew the others found it just as wonderful as I did."
@@ -43,27 +45,29 @@ label start:
     b "Hey there, Thatcher. I'd be mighty obliged if you helped unload some o' this in my wagon."
     
     "Turning around, I saw a short man with red hair coming my way. With skinny features and a lanky stance, he hardly looked like a pioneer."
-    "I'd talked with him a few times before, whenever the wagon train stopped to rest. Ezekiel Barrow, I remember his name being."
+    "I'd talked with him a few times before, whenever the wagon train stopped to rest. Phineas Barrow, I remember his name being."
     
     t "I've told you before, sir. You can just call me Cornelius. We're all equals now, out here in the Territories."
-    b "Well then, how about helping me out, Cornelius? And call me Ezekiel, if you're so inclined to be intimate."
+    b "Well then, how about helping me out, Cornelius? And call me Phineas, if you're so inclined to be intimate."
     
     t "Just lead the way. We're all going to need to look out for each other now."
     t "Take a look at this view, though. Don't you reckon it's the most gorgeous thing you've yet to see."
     
-    "Ezekiel and I fell silent for that moment and took in the sight of the prairie."
+    "Phineas and I fell silent for that moment and took in the sight of the prairie."
     "The fresh air, the clear sky, the green grass in the soil. All flooding out around us for as far as we could see."
     "This new frontier was ripe for our settling, and it was here we would build our new lives."
     "This was like our own new world."
     
-    b "... So this is Kansas Territory."
+    b "... So this is the Oregon Territory."
     t "We've finally made it."
+    
+    "..."
     
     b "So, are you going to keep looking, or are you going to help out?"
     t "Oh, right. I'll get right on that."
     
-    "While unpacking Ezekiel's wagon, I can't help but looking at my surroundings when there's a chance. It's nothing like the desolate wasteland we had heard about."
-    "It doesn't take too long to finish unpacking and moving his belongings. Despite being well-off, Ezekiel didn't as much as I would have expected with him. Perhaps he thinks that his fame will be enough."
+    "While unpacking Phineas' wagon, I can't help but looking at my surroundings when there's a chance. It's nothing like the desolate wasteland we had heard about."
+    "It doesn't take too long to finish unpacking and moving his belongings. Despite being well-off, Phineas didn't as much as I would have expected with him. Perhaps he thinks that his fame will be enough."
     
     b "Have you seen the others yet? I think I'm all set, but they may require your assistance as well."
     t "Wouldn't hurt to take a look around. You wouldn't happen to know of their whereabouts?"
@@ -71,7 +75,7 @@ label start:
     "I can't believe we've been here for hardly any time at all, yet I don't even know where everyone else is."
     
     b "If I had to guess, they're probably still in their wagons. Hopefully they will be ready to start unpacking and setting up soon. Get a move, why don't you?"
-    t "Alright. Until later, Ezekiel."
+    t "Alright. Until later, Phineas."
     
     "Walking towards the wagons, the first person I spot someone with fiery red hair. That would be... Goodwinson? Can't remember her first name. I shout out to her from a small distance."
     
@@ -83,19 +87,19 @@ label start:
     t "Sorry, it's Thatcher. Cornelius Thatcher."
     g "Alright. You may have heard that my sight isn't so great. Can't be too sure with something like that."
     t "I understand. Where do you need all this moved to?"
-    g "Moving everything out of the wagon and off to the side, perhaps 10 feet to the East? That's around where my house is going to be built. Also, you can call me Temperance."
-    t "Right away."
+    g " Right now, moving everything out of the wagon and off to the side will be okay. Perhaps 10 feet to the East? That's around where my house is going to be built. Also, you can call me Temperance."
+    t "Okay. Right away."
     
-    "Unpacking Temperance's belongings seems to take much longer than Ezekiel's. That just doesn't seem right. She's not as wealthy and she's certainly on the lanky side."
+    "Unpacking Temperance's belongings seems to take much longer than Phineas'. That just doesn't seem right. She's not as wealthy and she's certainly on the lanky side."
     "However, I've heard that she's an innovator, so a lot of this could be involved with that."
     
     g "I think that's everything. Thanks for the help, Cornelius."
     t "Any time. We're all in this together, and we all need to be able to get along and work with each other for the settlement to advance."
     
     "Two people are left now. Salisbury and Crenshaw. I haven't spoken to either of them, though I've heard brief mentions of them."
-    "Salisbury is a kind man who enjoys helping others. Crenshaw seemed to be quite different. The others said he was on the aggressive side and of a high socioeconomic status. I'll have to see for myself, but he seems like someone whose bad side you don't want to be on."
+    "Salisbury is a kind man who enjoys helping others. Crenshaw seemed to be quite different. The others said he was on the aggressive side and of a high socioeconomic status. I'll have to see for myself, but he seems like a person whose bad side you don't want to be on."
     "It's probably best to find Salisbury first."
-     
+    
     "Walking towards the other wagons, I see someone who must be Salisbury. Brown hair, muscular, tanned. That's all the other information going around about him."
     "It's probably best to call out to him and say who I am first to avoid any awkwardness. Anyway, none of us are that familiar with each other."
     
@@ -132,5 +136,12 @@ label start:
     "Time will have to tell what will become of him, the community, all of us. We can't afford to be going after each other."
     "While we all may be able to get along decently, a lot of us seem wary of the railroad crew in the area."
     
-    "The crew has been making a lot of noise over the past few hours, and they seem to be making little to no progress. Even Phineas"
+    "The crew has been making a lot of noise over the past few hours, and they seem to be making little to no progress. Even Phineas, a railroad man, seems to be getting irritated."
+    
+    b "I really wish they'd just stop at some point. It's been going on for hours, probably even days before we arrived."
+    g "It doesn't seem like they're going to any time soon. Doesn't it just make you wish you could block it out?"
+    c "Hah! Wouldn't that be grand? Just being able to block out sounds of your choosing?" 
+    s "At this point, I'd take just about anything I can get. We won't be able to sleep or think with this ruckus."
+    t "I doubt joking about the situation will make things any better. Let's just deal with it for now, the workers are human. They can't go forever."
+
     return
