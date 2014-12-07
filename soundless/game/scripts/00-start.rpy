@@ -12,6 +12,16 @@
 
 # Image declaration.
 image bg gen1_day = "images/bg_gen1_day.png"
+image bg gen1_night = "images/bg_gen1_night.png"
+image bg gen2 = "images/bg_gen2.png"
+image bg gen3 = "images/bg_gen3.png"
+image bg gen4 = "images/bg_gen4.png"
+image bg gen5 = "images/bg_gen5.png"
+image bg gen6 = "images/bg_gen6.png"
+image bg gen7 = "images/bg_gen7.png"
+image bg gen8 = "images/bg_gen8.png"
+image bg goodend = "bg_gen9_goodend.png"
+image bg badend = "bg_gen9_badend.png"
 
 # Character declaration.
 # GENERATION ONE MAIN.
@@ -29,7 +39,14 @@ define c2 = Character('Jared Crenshaw', color="#FFCC00")
 define g2 = Character('Kathleen Goodwinson', color="#FF0099")
 define s2 = Character('Dave Salisbury', color="#00CC00")
 
+# Variable declarations (so we can keep track of which vars we are using)
+$ northsouth = 0
+
 # The game begins here.
 label start:
-    jump scene1
+    # Introduction goes here if any
+    jump gen1
+    
+    # uncomment below lines to jump directly to scenes for debug
+    #jump gen2
     return
