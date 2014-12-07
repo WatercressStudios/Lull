@@ -37,112 +37,97 @@ define s2 = Character('Dave Salisbury', color="#00CC00")
 label start:
     scene bg gen1_day
 
-    "I emerge out of the wagon to face the morning sun."
-    "The rest of the train was still coming to a stop. It'd taken so long to get here, it felt so strange to say that we'd finally reached our destination."
-    "I tested the ground by crushing some grass underfoot. Dropping my rucksack, I stretched out and sucked in a breath of fresh air."
-    "I could hear chattering voices emerging out behind me as more settlers hopped down from their wagons. It was good to know I was sharing this sight, and I knew the others found it just as wonderful as I did."
+    # TODO: center this line
+    "CORNELIUS THATCHER, 1865"
+    
+    "Barrow hands me the spike."
+    "He straightens up and mugs for the crowd. A smaller crowd than he wanted, but they cheer so loud you can almost hear their lungs straining."
 
+    b "You look nervous, friend. Afraid I’ll hit your fingers?"
+
+    "Barrow looms over me with a hammer. I smile to reassure him."
+    "The man’s been good to me. His paychecks have been even better."
+
+    t "Never liked crowds, sir."
+    b "Call me Phineas. We’re all equals out here in the territories."
+    t "Yes, sir."
+    b "We’re in this together, so don’t flinch. I’d look a damn fool breaking my best foreman’s hand!"
+    b "Ready?"
+    t "Been ready for years, sir."
     
-    b "Hey there, Thatcher. I'd be mighty obliged if you helped unload some o' this in my wagon."
+    "He brings the hammer down on the spike, and the clang shakes the trees."
+    "I have to keep my jaw clenched so my teeth don’t rattle out of my skull."
+    "The clang echoes through the valley, and is slowly drowned out by the joyful crowd."
+
+    b "I hereby declare the Snake River Rail Line OPEN!"
+
+    "After everyone’s shouted their throats hoarse, Mr. Barrow grabs me by the collar and steers me into the new tavern, through snug pine doors that don’t even creak yet."
+    "He calls for a round of their best whiskey, on him. Bartender says the whiskey won’t get here for weeks, and all he’s got is the same crappy beer ration we’ve been drinking for months."
+
+    "Barrow says a round of that, then. Fine by me. Tastes better when you drink it in a bar, for some reason."
+
+    "We pull some tables together and cram as many workers around it as possible, and they all drink to Phineas Barrow and the Snake River Line and Pacific Star Railways until they stagger back to their tents."
+
+    "As the singing of workers and settlers drones into the distance, I find myself around a table with four of my new neighbors."
     
-    "Turning around, I saw a short man with red hair coming my way. With skinny features and a lanky stance, he hardly looked like a pioneer."
-    "I'd talked with him a few times before, whenever the wagon train stopped to rest. Phineas Barrow, I remember his name being."
+    "Phineas Barrow, the young golden boy of Pacific Star Railways."
+    "Terrence Crenshaw, that guard with the glittering eyes and the deep-fried smile."
+    "Ichabod Salisbury— a local. Not many locals around here. About to be a lot more of them."
+    "Temperance Goodwinson, Barrow’s secretary. Catch her humming to herself sometimes."
+
+    "While we’re all sipping the only beer I remember the taste of, Mrs. Goodwinson nurses a pint of water. Makes Barrow chuckle."
+
+    b "Temperance by name and temperance by nature, eh, Mrs. Goodwinson?"
+    g "If only we were all so aptly named. Imagine murder trials. ‘How plead you, Violence Jones?’"
+    "Salisbury bleats with laughter."
+    s "Say, if you’re a Mrs., where’s the Mr.? Surely you’re too young to—"
+    "But her smile stiffens. No, nobody’s too young for that."
+
+    g "Mr. Goodwinson has passed. He was a martyr for the cause of freedom."
+    "Crenshaw’s eyes narrow."
     
-    t "I've told you before, sir. You can just call me Cornelius. We're all equals now, out here in the Territories."
-    b "Well then, how about helping me out, Cornelius? And call me Phineas, if you're so inclined to be intimate."
-    
-    t "Just lead the way. We're all going to need to look out for each other now."
-    t "Take a look at this view, though. Don't you reckon it's the most gorgeous thing you've yet to see."
-    
-    "Phineas and I fell silent for that moment and took in the sight of the prairie."
-    "The fresh air, the clear sky, the green grass in the soil. All flooding out around us for as far as we could see."
-    "This new frontier was ripe for our settling, and it was here we would build our new lives."
-    "This was like our own new world."
-    
-    b "... So this is the Oregon Territory."
-    t "We've finally made it."
-    
-    "..."
-    
-    b "So, are you going to keep looking, or are you going to help out?"
-    t "Oh, right. I'll get right on that."
-    
-    "While unpacking Phineas' wagon, I can't help but looking at my surroundings when there's a chance. It's nothing like the desolate wasteland we had heard about."
-    "It doesn't take too long to finish unpacking and moving his belongings. Despite being well-off, Phineas didn't as much as I would have expected with him. Perhaps he thinks that his fame will be enough."
-    
-    b "Have you seen the others yet? I think I'm all set, but they may require your assistance as well."
-    t "Wouldn't hurt to take a look around. You wouldn't happen to know of their whereabouts?"
-    
-    "I can't believe we've been here for hardly any time at all, yet I don't even know where everyone else is."
-    
-    b "If I had to guess, they're probably still in their wagons. Hopefully they will be ready to start unpacking and setting up soon. Get a move, why don't you?"
-    t "Alright. Until later, Phineas."
-    
-    "Walking towards the wagons, the first person I spot someone with fiery red hair. That would be... Goodwinson? Can't remember her first name. I shout out to her from a small distance."
-    
-    t "Goodwinson, are you in need of some assistance? We've all got things to unpack, and it'd be best to get it done as soon as possible."
-    g "Who would that be? Actually, it doesn't matter that much. I definitely need assistance."
-    
-    "Oh, that's right. Her vision was pretty bad. It'd be best to announce myself around her in the future."
-    
-    t "Sorry, it's Thatcher. Cornelius Thatcher."
-    g "Alright. You may have heard that my sight isn't so great. Can't be too sure with something like that."
-    t "I understand. Where do you need all this moved to?"
-    g " Right now, moving everything out of the wagon and off to the side will be okay. Perhaps 10 feet to the East? That's around where my house is going to be built. Also, you can call me Temperance."
-    t "Okay. Right away."
-    
-    "Unpacking Temperance's belongings seems to take much longer than Phineas'. That just doesn't seem right. She's not as wealthy and she's certainly on the lanky side."
-    "However, I've heard that she's an innovator, so a lot of this could be involved with that."
-    
-    g "I think that's everything. Thanks for the help, Cornelius."
-    t "Any time. We're all in this together, and we all need to be able to get along and work with each other for the settlement to advance."
-    
-    "Two people are left now. Salisbury and Crenshaw. I haven't spoken to either of them, though I've heard brief mentions of them."
-    "Salisbury is a kind man who enjoys helping others. Crenshaw seemed to be quite different. The others said he was on the aggressive side and of a high socioeconomic status. I'll have to see for myself, but he seems like a person whose bad side you don't want to be on."
-    "It's probably best to find Salisbury first."
-    
-    "Walking towards the other wagons, I see someone who must be Salisbury. Brown hair, muscular, tanned. That's all the other information going around about him."
-    "It's probably best to call out to him and say who I am first to avoid any awkwardness. Anyway, none of us are that familiar with each other."
-    
-    t "Hello, Salisbury? I'm Cornelius Thatcher. Do you need any assistance?"
-    s "Well met, Thatcher! I could indeed use your help. There's a lot to unpack. You wouldn't mind some friendly talking, would you?"
-    t "No, not at all. So, what do you think of everything so far?"
-    s "Things aren't nearly as bad as I had expected. In all honesty, I can already see this as a home for all of us. We're not finished yet, there's still plenty to do, but if we can all get along, this community will thrive." 
-    t "I hear you. As soon as I stepped out of my wagon, I was met with a beautiful vista, the brightly shining sun, and a chance for the opportunity to create a new life for everyone here. Yet, that path will certainly be difficult."
-    
-    "Salisbury has a moderate amount of belongings to unpack, but the time passes quite quickly while talking. He certainly seems like an amicable person, if a bit a naive."
-    
-    s "Cornelius, before I forget, you can call me Ichabod. I feel like we're already getting along well enough to cut out the formalities."
-    t "Alright, Ichabod, I need to get going now. Crenshaw may need some assistance."
-    s "If I may say this: there's something slightly off about Crenshaw. Couldn't specify what, but he doesn't think like the rest of us. It's probably nothing, but perhaps just keep that in mind."
-    t "I'll be sure to remember that. Until then, Ichabod."
-    s "Goodbye, Cornelius."
-    
-    "What did Ichabod mean by that? People think differently, but is it going to make that much an impact on myself and everyone else? I don't think so. Crenshaw should be given a fair chance."
-    
-    "As I walk up to the last wagon, someone, presumably Crenshaw, calls out to me."
-    
-    c "Who's there? Are you one of the other settlers?"
-    t "Yes, Crenshaw, I'm one of the settlers. Thatcher, Cornelius Thatcher. Came over to see if you needed any help with unpacking."
-    c "Oh, very well then. You can help, but make sure you don't drop or break anything!"
-    t "Why would I even think of doing that? These things are your belongings, it's only right to make sure they stay intact."
-    c "You can't be too sure with some people... In any case, the assistance is appreciated." 
-    
-    "It takes some time to unpack Crenshaw's belongings. He seems to have far more than he needs in multiple areas: suits, shoes, jewelry, etc. I probably shouldn't inquire about that."
-    
-    c "Before you go, you should at least know my name, if we're all going to be living together. It's Terrence."
-    t "Alright, Terrance. I have to get going now, but we'll definitely meet again."
-    
-    "Terrence Crenshaw didn't seem that different to me, besides the slightly different introduction."
-    "Time will have to tell what will become of him, the community, all of us. We can't afford to be going after each other."
-    "While we all may be able to get along decently, a lot of us seem wary of the railroad crew in the area."
-    
-    "The crew has been making a lot of noise over the past few hours, and they seem to be making little to no progress. Even Phineas, a railroad man, seems to be getting irritated."
-    
-    b "I really wish they'd just stop at some point. It's been going on for hours, probably even days before we arrived."
-    g "It doesn't seem like they're going to any time soon. Doesn't it just make you wish you could block it out?"
-    c "Hah! Wouldn't that be grand? Just being able to block out sounds of your choosing?" 
-    s "At this point, I'd take just about anything I can get. We won't be able to sleep or think with this ruckus."
-    t "I doubt joking about the situation will make things any better. Let's just deal with it for now, the workers are human. They can't go forever."
+    c "Oh? Whose freedom?"
+    "She hears Crenshaw’s Carolina drawl, and her smile keeps getting more brittle."
+    g "He fought for the freedom of the negro, and the freedom of all mankind."
+
+    "Barrow slams his mug to the table, rattling the unused cutlery. I’m the only one who doesn’t jump. You get used to sudden, loud noises working on the railway."
+
+    "Goodwinson and Crenshaw don’t break eye contact. Poor Salisbury looks like a cornered dog, trapped between the two of them."
+
+    b "My friends! These are Eastern problems for Eastern politicians. We’re all neighbors now."
+    c "And I want to get the measure of my neighbors."
+
+    "He turns to me."
+
+    menu:
+        c "So? North or South?"
+
+        "North":
+            t "I fought for Lincoln and liberty, may he rest in peace."
+            g "Lincoln, of course. We wouldn’t want liberty resting in peace, would we."
+            "Goodwinson seems to relax. Good thing, too, she’ll be wrinkled by 30 if she keeps scrunching her brow like that."
+            "Barrow slams his mug into the table again."
+            b "I swear I’ll split this table in two if you all can’t play nice!"
+            g "Apologies, Mr. Barrow."
+            
+        "South":
+            "I meet Crenshaw’s eyes."
+            t "We lost. Now we’re here. It’s in the past."
+            "Crenshaw nods."
+            c "The future, too, Lord willing."
+            "Barrow slams his mug into the table again."
+            b "I swear I’ll split this table in two if you all can’t play nice!"
+            c "Sure thing, Barrow."
+            
+        "It doesn't matter.":
+            t "Barrow’s right. I won’t be nearly drunk enough to talk politics until we get some real liquor here."
+            "Barrow claps me on the shoulder. I don’t know if I’ll ever really be used to that from a man who wears a top hat on weekends."
+
+    b "Please, it’s just Phineas!"
+    b "I’ll be your neighbor, too. Pacific Star’s settling me here—they’ve got big plans for this little town! The next San Francisco, right here, you’ll see!"
+
+    "And though that’s the goal I’ve been helping him towards for months, I sit there and hope with half my heart that Barrow’s wrong."
+
+    "The scream of the city and the clatter of the railway… as the night swallows the singing from the camp and the fireplace dies down, all I want is peace, quiet, a stale beer, and the glow of a job well done."
 
     return
