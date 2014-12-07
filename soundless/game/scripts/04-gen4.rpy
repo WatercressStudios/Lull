@@ -1,9 +1,9 @@
 label gen4:
     "CORNELIUS THATCHER, 1895"
 
-    if success > 0: # peaceful resolution in gen3
+    if gen3_success > 0: # peaceful resolution in gen3
         if FS:
-            ichabod_scene
+            call ichabod_scene
         elif FC:
             call terrence_scene
         else:
