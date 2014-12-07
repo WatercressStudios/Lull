@@ -1,6 +1,5 @@
 # LULL
 # SCENE THREE. 1885.
-# ELECTRO’S DRAFT
 
 label gen3:
     scene bg gen3

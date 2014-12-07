@@ -28,8 +28,8 @@ image bg badend = "bg_gen9_badend.png"
 define t = Character('Cornelius Thatcher', color="#33CCFF")
 define b = Character('Phineas Barrow', color="#D14719")
 define c = Character('Terrence Crenshaw', color="#FFCC00")
-define g = Character('Temperance Goodwinson', color="#FF0099")
-define s = Character('Ichabod Salisbury', color="#00CC00")
+define g = Character('Temperance Goodwin', color="#FF0099")
+define s = Character('Ichabod Sedgewood', color="#00CC00")
 # GENERATION ONE'S CHILDREN
 define gt = Character('Grace Thatcher', color="#66CCFF")
 # GENERATION TWO MAIN.

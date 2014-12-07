@@ -40,18 +40,18 @@ label gen1:
     
     "Phineas Barrow, the young golden boy of Pacific Star Railways."
     "Terrence Crenshaw, that guard with the glittering eyes and the deep-fried smile."
-    "Ichabod Salisbury— a local. Not many locals around here. About to be a lot more of them."
-    "Temperance Goodwinson, Barrow’s secretary. Catch her humming to herself sometimes."
+    "Ichabod Sedgewood— a local. Not many locals around here. About to be a lot more of them."
+    "Temperance Goodwin, Barrow’s secretary. Catch her humming to herself sometimes."
 
-    "While we’re all sipping the only beer I remember the taste of, Mrs. Goodwinson nurses a pint of water. Makes Barrow chuckle."
+    "While we’re all sipping the only beer I remember the taste of, Mrs. Goodwin nurses a pint of water. Makes Barrow chuckle."
 
-    b "Temperance by name and temperance by nature, eh, Mrs. Goodwinson?"
+    b "Temperance by name and temperance by nature, eh, Mrs. Goodwin?"
     g "If only we were all so aptly named. Imagine murder trials. ‘How plead you, Violence Jones?’"
-    "Salisbury bleats with laughter."
+    "Sedgewood bleats with laughter."
     s "Say, if you’re a Mrs., where’s the Mr.? Surely you’re too young to—"
     "But her smile stiffens. No, nobody’s too young for that."
 
-    g "Mr. Goodwinson has passed. He was a martyr for the cause of freedom."
+    g "Mr. Goodwin has passed. He was a martyr for the cause of freedom."
     "Crenshaw’s eyes narrow."
     
     c "Oh? Whose freedom?"
@@ -60,7 +60,7 @@ label gen1:
 
     "Barrow slams his mug to the table, rattling the unused cutlery. I’m the only one who doesn’t jump. You get used to sudden, loud noises working on the railway."
 
-    "Goodwinson and Crenshaw don’t break eye contact. Poor Salisbury looks like a cornered dog, trapped between the two of them."
+    "Goodwin and Crenshaw don’t break eye contact. Poor Sedgewood looks like a cornered dog, trapped between the two of them."
 
     b "My friends! These are Eastern problems for Eastern politicians. We’re all neighbors now."
     c "And I want to get the measure of my neighbors."
@@ -75,7 +75,7 @@ label gen1:
             $ northsouth = 0
             t "I fought for Lincoln and liberty, may he rest in peace."
             g "Lincoln, of course. We wouldn’t want liberty resting in peace, would we."
-            "Goodwinson seems to relax. Good thing, too, she’ll be wrinkled by 30 if she keeps scrunching her brow like that."
+            "Goodwin seems to relax. Good thing, too, she’ll be wrinkled by 30 if she keeps scrunching her brow like that."
             "Barrow slams his mug into the table again."
             b "I swear I’ll split this table in two if you all can’t play nice!"
             g "Apologies, Mr. Barrow."

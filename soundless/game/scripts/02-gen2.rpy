@@ -18,7 +18,7 @@ label gen2:
     
     # if answered North
     if northsouth == 0:
-        "I open the door. Temperance Goodwinson's on the other side, covering her eyes with her hand."
+        "I open the door. Temperance Goodwin's on the other side, covering her eyes with her hand."
         
         menu:
             g "You're not decent, are you? Get decent, Cornelius."
