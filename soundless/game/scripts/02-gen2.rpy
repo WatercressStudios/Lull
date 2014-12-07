@@ -276,7 +276,8 @@ label gen2:
 
             # IF FRIENDS WITH CRENSHAW
             elif northsouth == 1:
-                $ DC = True
+                # you disappointed Crenshaw
+                $ FC = False
                 c "I never thought you were the sort to be ordered around by a schoolmarm, Cornelius. It's rather a disappointment."
                 $ unity -= 1
 

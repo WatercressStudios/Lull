@@ -82,6 +82,7 @@ label gen1:
             
         "South":
             $ northsouth = 1
+            $ FC = True
             "I meet Crenshaw’s eyes."
             t "We lost. Now we’re here. It’s in the past."
             "Crenshaw nods."

@@ -249,9 +249,8 @@ label gen3:
     else:
         "And then Temperance Goodwin steps forward, and without signing a word, walks between the rows of pointed guns."
     
-    # temporary var
-    # meaning here: 1 = success, 0 = failure, -1 = crenshaw failure
-    $ success = 0
+    # meaning: 1 = success, 0 = failure, -1 = crenshaw failure
+    $ gen3_success = 0
     menu:
         "Fool that I am, I follow her."
         
@@ -260,26 +259,26 @@ label gen3:
             t "You think killing our town's farmers will help that? Or killing our hunters?"
             t "Put down your guns before your damnfool pride kills us all."
             if openness >= 1:
-                $ success = 1
+                $ gen3_success = 1
         "Appeal to their community spirit":
             t "Goddamnit, you two, how long have we all known each other?"
             t "We've laughed over drinks and argued over dinner for two decades now."
             t "We built this town from the ground up. I refuse to believe this is how it all ends."
             if unity >= 1:
-                $ success = 1
+                $ gen3_success = 1
         "Plead with Sedgewood":
             t "Ichabod, I'm begging you, don't do this."
             t "You'll have justice for the boys. But you'll have it in court."
             t "Don't ask more of your friends to die tonight."
             if FS:
-                $ success = 1
+                $ gen3_success = 1
         "Plead with Crenshaw":
             t "Terrence, I'm begging you, don't do this."
             t "You did what you had to. The town will understand."
             t "Go back inside. I don't want to see you bury any more sons."
-            $ success = -1
+            $ gen3_success = -1
             
-    if success > 0:
+    if gen3_success > 0:
         $ unity += 1
         "Ichabod's mouth opens and he tries to say something to me. He tries to speak again. And then he crumbles in on himself."
 
@@ -306,7 +305,7 @@ label gen3:
                 "I promised Grace food. Lord have mercy, I promised I'd bring back food."
     else: #failure
         $ unity -= 1
-        if success == -1:
+        if gen3_success == -1:
             if not FC:
                 "Crenshaw's bum leg trembles. He slumps back into his rocking chair."
                 c "I asked you here to witness, Cornelius. It's time for you to go."
@@ -327,4 +326,5 @@ label gen3:
         if not GM:
             # we should probably have a pause here /Kyle
             "I promised Grace food. Lord have mercy, I promised I'd bring back food."
-        
+    
+    jump gen4

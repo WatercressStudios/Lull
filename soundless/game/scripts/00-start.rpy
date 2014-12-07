@@ -10,6 +10,12 @@
 # TheDwarfLard
 # Luke
 
+# Coder: Kylemsguy
+
+# Note: this VN is divided into Acts and Generations
+# Act 1 = Gen 1-4
+## add more here
+
 # Image declaration.
 image bg gen1_day = "images/bg_gen1_day.png"
 image bg gen1_night = "images/bg_gen1_night.png"
@@ -43,15 +49,17 @@ define s2 = Character('Dave Sedgewood', color="#00CC00")
 label start:
     # Variable declarations (so we can keep track of which vars we are using)
     python:
-        northsouth = 0
         unity = 0
         openness = 0
+        
+        northsouth = 0 
+        gen3_success = 0 # whether ppl be ded
+        
         # For the below:
         MT = False # Married Temperance (North + Flirt)
         FG = False # Friend of Goodwin (North + Be Respectful)
         FS = False # Friend of Sedgewood (It Doesn't Matter)
         FC = False # Friend of Crenshaw (South + Meat)
-        DC = False # Disappointed Crenshaw (South + Paper)
         GM = False # True = Got Meat, False = Got Paper
 
     # Introduction goes here if any
@@ -59,4 +67,4 @@ label start:
     
     # uncomment below lines to jump directly to scenes for debug
     #jump gen2
-    return
+    #return
