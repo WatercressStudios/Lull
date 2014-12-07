@@ -50,8 +50,7 @@ python:
     FS = False # Friend of Sedgewood (It Doesn't Matter)
     FC = False # Friend of Crenshaw (South + Meat)
     DC = False # Disappointed Crenshaw (South + Paper)
-    GP = False # Got Paper
-    GM = False # Got Meat
+    GP = False # True = Got Paper, False = Got Meat
 
 # The game begins here.
 label start:

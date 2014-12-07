@@ -237,6 +237,8 @@ label gen2:
         c "Come on, Thatcher, let's make this a proper consensus."
         
         "Take the Meat":
+            # GP is not set to true -> GM is true
+            $ GP = False
             t "We need to be prepared, it's true. But we can survive a period of silence while we start making our own paper. We're not in a position to survive a famine."
             
             # IF FRIENDS WITH TEMPERANCE
@@ -263,6 +265,7 @@ label gen2:
                 b "Let's go outside and tell our town what's what."
 
         "Take the Paper":
+            GP = True
             t "I've seen hunger before, and I hope to never see it again. But a world where we can't communicate with each other… that's a nightmare I never want to face. We'd be animals."
             openness += 2
 

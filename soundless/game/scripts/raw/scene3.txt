@@ -1,121 +1,337 @@
-# LULL
-# SCENE THREE. 1885.
-# ELECTRO’S DRAFT
+POSSIBILITIES:
+MT - Married Temperance (North + Flirt)
+FG - Friend of Goodwin (North + Be Respectful)
+FS - Friend of Sedgewood (It Doesn't Matter)
+FC - Friend of Crenshaw (South + Meat)
+DC - Disappointed Crenshaw (South + Paper)
+GP - Got Paper
+GM - Got Meat
 
-gt "Are... we having for... tonight, papa?"
+Color is to make overlapping moments clear.
 
-t "Hm?"
+CORNELIUS THATCHER, 1885
 
-"Grace's signing is still so clumsy. You'd think that they would learn faster, the young ones."
+gt "Daddy. I heard monsters."
 
-t "What was that?"
+Grace signs slowly, but with more and more confidence.
 
-gt "What are we having for supper tonight, papa?"
+MT:
+Her mother spends most of her time teaching adults to sign, but Grace gets lots of practice with her half-brothers.
 
-t "Ah, that..."
-t "We'll talk about it later, alright, sweetheart? Papa's tired for now."
+I slump down onto the couch and pull Grace onto my lap.
 
-"It's Sunday, and we've spent all morning and afternoon playing with the other children in the square. You'd be amazed, how these children are always just bursting with energy."
-"It was a different case for me. I wasn't so young anymore."
-"Perched together on the porch of the schoolhouse, Grace and I've just shared a picnic."
+The couch still smells of alcohol from when Phineas Barrow used to sleep there.
 
-t "I'm going to rest for a bit, okay? You should head back to the house, see if any of your brothers want to play."
+Then he came home drunk one night too many and my wife turned him out. Died of exposure a year later.
 
-gt "Okay, papa!"
+Another friend on an ever-longer list. I hear Phineas Jr. has inherited his father's stool at the tavern.
 
-"She gives me peck on the cheek before heading off."
-"I watch as her small frame skips, noiselessly, down the trail."
-"Finally, I have some time alone."
-"I'd thought making the journey to Oregon Territory, raising my homestead, building this town, that was the most difficult thing I'd ever done."
-"That was before I had children."
+NOT MT:
+Since her mother died, I've started bringing her to construction sites so I can practice with her during breaks.
 
-"I stretch out on the porch and suck in a breath of the Oregon air."
-"Closing my eyes, I begin to nod off to sleep."
-"You know, with your eyes closed, the silence becomes much more noticeable."
-"It's been close to 20 years now that , and we still haven't gotten used to it."
-"I doubt we ever will."
-"In the blackness, the silence is deafening."
-"It's indescribable, really, how dreadful the silence is."
-"And yet, sometimes- and only sometimes-"
-"there's a certain peacefulness to it."
-"To sound being gone."
-"I'm sure the others feel it too, not that they'd ever admit it."
-"You'd notice it while watching the sun rise at dawn."
-"Or while holding your newborn daughter in your arms."
-"Sometimes, the silence adds something. It makes events seem so much more... personal."
-"Like, there isn't anything coming between you and everything else. No distance, no difference. You're part of the same system, the same soundless world."
-"You become connected to everything else, and all seems well for just a little while."
-"The mere fact that there is such a thing left as peace in this muted world..."
-"Sometimes, it gives me the strength to go on."
-"..."
-"..."
-"..."
-"I'm thrust awake by someone tapping me on the shoulder."
+I point to the sleeping Phineas Barrow. After two years, he's still nesting on our couch, and still making the house reek of alcohol.
 
-t "...Mmf!"
+b "Do you mean Phineas?"
 
-"I brush them away, but to no avail. They hit me harder."
+gt "No. Monsters."
+/
 
-t "Hey!"
+b "Tell me about these monsters, Grace."
 
-"After all these years without sound, still yelling in pain. Something about being human; you never learn."
-"I rub at my eyes before turning to face Temperance Goodwinson. Obviously annoyed, she makes emotive gestures with her hands."
+gt "Down. Outside. Horse."
 
-g "Hey, you! The Crenshaws are back from the hunt, we should get down there."
+GP:
+    She struggles through the signs, then reaches into her pocket for paper and charcoal.
 
-"It takes a second for it to get through me. I'm still groggy."
+    I lay my hand on hers.
 
-t "... Oh, is that so?"
+    b "Don't use paper, Gracie. Practice the signs."
 
-g "Come on, get up. And what kind o’ place to sleep is the schoolhouse’s porch!?"
+GM:
+    She struggles through the signs, then scowls in frustration.
 
-t "I was tired, alright. I’m not the dashing young man I used to be."
+    gt "Paper. Paper."
 
-"Temperance gives a huff as she heads off on her way to the crowd that's formed in the center of the square. I pick myself up and follow behind."
-"Fidgeting my way past the crowd, I can see the Crenshaws staying their horses and Phineas Salisbury inspecting them. He's gesturing to them in an orderly manner, his lips pursed closed."
-"Some of Phineas's men are unloading things from the horses, wrapped up and covered in canvas. They seem to be the spoils of the hunt... And they're looking scarce."
-"Though it's not like we'd been expecting anything else. What with sound being gone, wildlife worldwide's been thrown to hell. The prey can't hear their predators stalking them anymore, and the predators are running out of prey."
-"And thanks to the food shortages, the rioting in the cities has gotten worse. It's nearly to the point of anarchy, and bands of outlaws and criminal factions have sprouted up from the chaos like a plague."
-"It's a horrid world, the one we live in."
-"Thanks to sound being gone, there aren't many good things left in it."
+    b "Sorry, Gracie. No more paper."
+/
 
-s "You didn't encounter any parties from the other settlements?"
+b "You should sleep. If you sleep more, you won't need as much food."
 
-c "No, not this time."
+She kneads her forehead and shakes her head in frustration.
 
-s "It's been a while since we have. Doesn't sit well with me."
+gt "Have to kill the monsters."
 
-c "I don't mind it so much, the hunting's gotten easier. We'll head out again this weekend and see if we can't do better."
+Just then, the door-flag starts waving up and down. Grace points at the door and glares at me as if to say See?
 
-s "No, I can't say that's a good idea. Something's not right. On top of our leftovers and reserves, this should be enough to last a week. You can go then."
+MT:
+    I slide the view-window open. Temperance waggles her eyebrows at me from the other side of the door.
 
-c "'This is enough,' you say? Unless we all want to be gnawing on hide and bones for supper, it's not even close. Especially with all the young ones."
+    Grace runs to the door, eager to tell her mother about the monsters.
 
-s "We'll manage. If you go too soon your tracks will still be fresh, and odds are you'll be expected. You could walk right into a trap."
+    g "Give mommy a kiss."
 
-c "Lay off. We make our own decisions."
+    Grace licks Temperance's cheek. Her face breaks into laughter, though no sound comes out.
 
-s "I'm just showing concern for you, is all. Raiding parties are a bigger threat now than ever, what with the game dying out. People are growing desparate. There's even been those rumors about cannibals..."
+    t "Is Crenshaw back?"
 
-c "Get off our backs. We're not doing this for you, we're doing it for this town."
+    g "He is. Let's get down there before word spreads."
 
-s "I'm acting in the best interests of this town. Don't question my stance on these raiders, Crenshaw."
+FG:
+    I slide the view-window open. Temperance gives me a cheerful wave from the other side of the door.
 
-c "Yes, well, you didn't lose a son to them. So I think I'll handle them how I see fit."
+    Grace runs to the door, eager to tell Auntie Temperance about the monsters.
 
-s "But if you'd just listened to me back then, you would never have lo-"
+    g "Give your auntie a kiss."
 
-c "I would never have what, Salisbury?"
+    Grace licks Temperance's cheek. Her face breaks into laughter, though no sound comes out.
 
-s "..."
+    g "Good heavens, is that Phineas Barrow on your couch? I thought you'd gotten rid of that drunk."
 
-c "We'll be taking our leave now."
+    I shrug. He's a friend.
 
-"Terrence yanks his horse over and begins to shove his way past the crowd."
-"He spits on the ground as the other Crenshaws follow, leaving the spoils of the hunt for Salisbury to dole out as always."
-"Phineas sighs and rubs his temples before turning to address the townspeople."
+    t "Is Crenshaw back?"
 
-s "Alright, let's see. The rations are going to be... a little harder to deal with this time, everyone, but let's cooperate here."
+    g "He is. Let's get down there before that pig eats every last scrap."
 
-"He furls up his nose, rolls up his sleeves, and begins to sort through the spoils."
+FC:
+    I slide the view-window open. Terrence Crenshaw smiles serenely on the other side of the door.
 
+    Grace runs to the door, eager to tell Uncle Terrence about the monsters.
+
+    c "Ah, Cornelius's little tiger!"
+
+    Grace bites Crenshaw on the hand. Both their faces break into laughter, though no sound comes out.
+
+    c "My god, Phineas Barrow still lives on your couch? How do you stand the smell?"
+
+    I shrug. He's a friend.
+
+    t "Back from the hunt?"
+
+    c "I sure am. Let's get to my place before word spreads."
+
+FS:
+    I slide the view-window open. Ichabod gives me a cheerful nod from the other side of the door.
+
+    Grace runs to the door, eager to tell Uncle Ichabod about the monsters.
+
+    s "Ah, my girl! Spare a kiss for an old man."
+
+    Grace licks Ichabod's cheek. Her face breaks into laughter, though no sound comes out.
+
+    s "Lord almighty, Phineas Barrow is still living on your couch? I don't think you'll ever get that drunk out of here."
+
+    I shrug. He's a friend.
+
+    t "Is Crenshaw back?"
+
+    s "He is. Let's get down there before word spreads."
+
+DC:
+    I slide the view-window open. Ichabod gives me a nod from the other side of the door.
+
+    Grace hovers in the back of the room.
+
+    t "Is Crenshaw back?"
+
+    s "He is. Let's get down there before word spreads."
+/
+
+Grace tugs my sleeve.
+
+gt "Food?"
+
+b "I'm going to get food."
+
+gt "Food?"
+
+GM:
+b "If you're really hungry, you can have one pork strip. Just one!"
+
+She nods gleefully and charges down to the cellar.
+
+GP:
+b "Food soon. Food real soon."
+
+She nods and resumes her watch by the door.
+/
+
+Day breaks over the Crenshaw homestead.
+
+A group of Ichabod's farmhands are helping the Crenshaw boys unload game from their mules. Skinny game. Skinny mules.
+
+GP:
+Ichabod hobbles around, scrawling orders on crumpled bits of paper and thrusting them at farmhands.
+
+GM:
+Ichabod hobbles around, thrusting his hands in farmhands' faces to sign orders.
+/
+
+Terrence Crenshaw watches from a rocking chair on his front porch. Temperance and I linger on the porch next to him.
+
+c "Been a while since we've had the old crowd in one place."
+
+t "Except that bum Barrow."
+
+MT:
+g "May the Lord rest his soul."
+
+Her face briefly wrinkles with guilt.
+/
+
+Terrence nods to himself slowly, with a reptilian ease.
+
+c "You know how you tell a predator from prey? With animals, I mean."
+
+I shake my head.
+
+c "Predators have eyes forward. Focused on one target. Like humans."
+
+c "Prey have eyes on the sides of their head. Sensing all around. Like cattle."
+
+c "Not a hard and fast rule. But the same goes for sound. Prey needs to sense all around to stay safe. No sound… bad to be prey."
+
+c "Good to be a predator, right? Wrong. Predators eat all the prey. Predators starve. Bad everywhere."
+
+c "Even insects have gone funny since sound went away. Ask Ichabod. Bad for crops, too. In the country folks starve. In the city folks riot, then starve."
+
+c "I'm a hunter, Cornelius. I'm a predator. But we live in a time of too many predators and not enough prey."
+
+Down in front of the house, Ichabod's face bends into a mute scream. His hands thrash, first in half-formed signs, then in furious nonsense.
+
+c "Lecture concluded. Now for the object lesson."
+
+Temperance and I peer over the bannister and spot the last animals lashed to the mules: two humans, their chests pitted with shot.
+
+s "DAMN FUCK WHY WHO KILL"
+
+c "You're not making any sense, Ichabod. Write it out."
+
+Crenshaw holds up a slate and chalk. Sedgewood storms up towards the porch, but two of the Crenshaw boys block the steps.
+
+Crenshaw passes the slate over the railing. Sedgewood scrawls a single word.
+
+s "EXPLAIN"
+
+c "Your farmhands went bandit, Ichabod. They attacked my boys."
+
+s "LIE"
+
+c "Well, they were out in the wilds, armed with your guns… how could such a thing be?"
+
+c "I trust you wouldn't send them out to poach. So I can only assume they went bandit."
+
+s "NO"
+
+c "I've lost a son to bandits. Plenty of people in town have. Imagine what they'll think."
+
+Sedgewood breathes deeply and fiddles with his hands, feeling out his next words. He sets down the slate.
+
+s "Not bandits. I asked them for meat."
+
+Crenshaw stands, leaning on the railing to support his bum leg. He sneers down at Ichabod Sedgewood like a disappointed god.
+
+c "Even worse. Bandits kill some people. Poachers kill everyone."
+
+c "I hunt. Not you. Not your farmhands. Me. Overhunting means we all starve."
+
+s "We are all starving, and nobody can hunt but you? Ridiculous."
+
+c "So says Ichabod Sedgewood, the man who owns every patch of farmland from the Pacific to the horizon."
+
+Sedgewood makes a forceful gesture, and suddenly half a dozen farmhands are staring at Crenshaw down shotgun sights. Angus and Brady Crenshaw draw revolvers. Millicent Crenshaw leans out of an upstairs window with an old rifle.
+
+s "Temperance. Cornelius. You need to go."
+
+I don't need to be told twice. I help Temperance climb the railing and then vault over it myself.
+
+c "I asked them here to bear witness, Ichabod. Respected, beloved… they will tell of what you do here."
+
+s "Good. Let nobody doubt that Ichabod Sedgewood looks after his own."
+
+And then Temperance Goodwin [If MT: Temperance Goodwin Thatcher] steps forward, and without signing a word, walks between the rows of pointed guns.
+
+Fool that I am, I follow her.
+
+DECISION
+Appeal to their sense of reason
+Appeal to their community spirit
+Plead with Sedgewood
+Plead with Crenshaw
+
+1 will succeed if your town has at least 1 Openness. 2 will succeed if your town has at least 1 Unity. 3 will succeed if you are friends with Sedgewood. 4 will never succeed. Any success grants +1 Unity, and any failure grants -1 Unity.
+
+1.
+t "There's only one thing any of us want here, and that's to not starve!"
+t "You think killing our town's farmers will help that? Or killing our hunters?"
+t "Put down your guns before your damnfool pride kills us all."
+
+2.
+t "Goddamnit, you two, how long have we all known each other?"
+t "We've laughed over drinks and argued over dinner for two decades now."
+t "We built this town from the ground up. I refuse to believe this is how it all ends."
+
+3. 
+t "Ichabod, I'm begging you, don't do this."
+t "You'll have justice for the boys. But you'll have it in court."
+t "Don't ask more of your friends to die tonight."
+
+4. 
+t "Terrence, I'm begging you, don't do this."
+t "You did what you had to. The town will understand."
+t "Go back inside. I don't want to see you bury any more sons."
+
+STANDARD FAILURE
+Ichabod gives me a sad smile.
+s "They're my boys, Cornelius. Love 'em like my own sons."
+
+PLEADING WITH CRENSHAW (NOT FRIENDS) FAILURE
+Crenshaw's bum leg trembles. He slumps back into his rocking chair.
+c "I asked you here to witness, Cornelius. It's time for you to go."
+
+PLEADING WITH CRENSHAW (FRIENDS) FAILURE
+Crenshaw's bum leg trembles. He slumps back into his rocking chair.
+c "Of course, Cornelius. You are right. I must think of my family."
+c "Ichabod. Listen to our friend. Let us settle this in court, like civilized people."
+Ichabod gives him a sad smile.
+s "They're my boys, Terrence. Love 'em like my own sons."
+
+FAILURE ENDING
+I grab Temperance by the arm and put every ounce of strength into my legs.
+
+As I glance back, the morning sun outshines the flash of a dozen muzzles. Without the crack of gunfire, the Sedgewoods and the Crenshaws look like children acting out a play battle.
+
+When I look away, I can almost convince myself that my old friends will dust themselves off and stand back up again.
+
+GOT PAPER:
+I promised Grace food. Lord have mercy, I promised I'd bring back food.
+[If you didn't get food from the railway company, then Grace dies during the famine.]
+
+
+
+SUCCESS ENDING
+Ichabod's mouth opens and he tries to say something to me. He tries to speak again. And then he crumbles in on himself.
+
+s "Yes. No more."
+
+He jabs two signs at Crenshaw.
+
+s "Another day."
+
+MT:
+Once the Crenshaw homestead is a speck in the distance, I take Temperance in my arms and hold her for a long time.
+
+When I get home, Grace is still keeping watch on the door.
+
+t "No monsters, Gracie. Just friends coming home."
+
+GOT FOOD:
+Grace shakes her head and taps her foot impatiently.
+
+gt "Have to kill the monsters."
+
+GOT PAPER:
+gt "Food?"
+
+I promised Grace food. Lord have mercy, I promised I'd bring back food.
+[If you didn't get food from the railway company, then Grace dies during the famine.]
