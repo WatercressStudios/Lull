@@ -84,6 +84,9 @@ label gen3:
         t "Is Crenshaw back?"
 
         g "He is. Let's get down there before word spreads."
+        
+        show TempGood old at offscreenright
+        hide TempGood
             
     elif FG:
         show TempGood old at right
