@@ -17,6 +17,7 @@
 ## add more here
 
 # Image declaration.
+## Backgrounds
 image bg gen1_day = "images/bg_gen1_day.png"
 image bg gen1_night = "images/bg_gen1_night.png"
 image bg gen2 = "images/bg_gen2.png"
@@ -28,6 +29,9 @@ image bg gen7 = "images/bg_gen7.png"
 image bg gen8 = "images/bg_gen8.png"
 image bg goodend = "bg_gen9_goodend.png"
 image bg badend = "bg_gen9_badend.png"
+
+## Character Sprites
+
 
 # Character declaration.
 # ACT ONE MAIN.
