@@ -75,7 +75,7 @@ label gen5:
 
     else:
         ts "Silas Goodwin, a preacher of great passion and virtue, who lit a path for our community when all seemed dark."
-        Kathleen Goodwin leans over and signs to me.
+        "Kathleen Goodwin leans over and signs to me."
         g2 "Every year I tell that bastard to put Temperance in the speech, and every year he tells me he's going to."
         if MT:
             t2 "He's just jealous that Temperance gets two whole founding families to herself."

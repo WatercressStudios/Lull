@@ -16,7 +16,7 @@ label gen4:
     else: # everybody ded
         call temperance_scene
         
-    # jump gen5
+    jump gen5
     
 label temperance_scene:
     if MT:

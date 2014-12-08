@@ -101,6 +101,8 @@ label start:
         
         gen5_radical = False
         
+        gen6_wait = 0
+        
         # For the below:
         MT = False # Married Temperance (North + Flirt)
         FG = False # Friend of Goodwin (North + Be Respectful)
