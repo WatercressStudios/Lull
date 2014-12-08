@@ -53,7 +53,6 @@ label gen5:
     "I only ever see Jared Crenshaw at events like this. He bows deeply, but seems a bit chilly. Might just be nerves."
     
     hide JareCren
-    show TheoSedg at left
 
     "Theodore Sedgewood takes center stage and launches into a speech about our town's history."
 
@@ -114,7 +113,6 @@ label gen5:
 
     ts "But this year, we have three fine young men and women ready to join our town as Men of the Houses!"
 
-    hide TheoSedg
     show KathGood at right
     show DaveSedg at center
     show AlexThat at left

@@ -91,8 +91,9 @@ define c2 = Character('Jared Crenshaw', color="#FFCC00")
 define g2 = Character('Kathleen Goodwin', color="#FF0099")
 define s2 = Character('Dave Sedgewood', color="#00CC00")
 
-# Act 2 DAD
-define dad = Character('INSERT NAME HERE', color="#FFFFFF")
+# Act 2 minor
+define dad = Character('Dad', color="#004A7F")
+define ts = Character('Theodore Sedgewood', color="#FFB600")
 
 # The game begins here.
 label start:
