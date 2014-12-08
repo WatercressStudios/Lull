@@ -99,6 +99,8 @@ label start:
         northsouth = 0 
         gen3_success = 0 # whether ppl be ded
         
+        gen5_radical = False
+        
         # For the below:
         MT = False # Married Temperance (North + Flirt)
         FG = False # Friend of Goodwin (North + Be Respectful)
