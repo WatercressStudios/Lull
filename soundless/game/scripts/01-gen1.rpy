@@ -4,7 +4,9 @@ label gen1:
 
     # TODO: center this line
     "CORNELIUS THATCHER, 1865"
-    
+
+    show PhinBarr at left
+    show CornThat at right
     "Barrow hands me the spike."
     "He straightens up and mugs for the crowd. A smaller crowd than he wanted, but they cheer so loud you can almost hear their lungs straining."
 
@@ -33,26 +35,42 @@ label gen1:
 
     "We pull some tables together and cram as many workers around it as possible, and they all drink to Phineas Barrow and the Snake River Line and Pacific Star Railways until they stagger back to their tents."
 
+    hide PhinBarr
+    hide CornThat
+
     show bg gen1_night
     with dissolve
     
     "As the singing of workers and settlers drones into the distance, I find myself around a table with four of my new neighbors."
     
+    show PhinBarr
     "Phineas Barrow, the young golden boy of Pacific Star Railways."
+    hide PhinBarr
+    show TerrCren
     "Terrence Crenshaw, that guard with the glittering eyes and the deep-fried smile."
+    hide TerrCren
+    show IchaSedg
     "Ichabod Sedgewood— a local. Not many locals around here. About to be a lot more of them."
+    hide IchaSedg
+    show TempGood
     "Temperance Goodwin, Barrow’s secretary. Catch her humming to herself sometimes."
+    hide TempGood
 
     "While we’re all sipping the only beer I remember the taste of, Mrs. Goodwin nurses a pint of water. Makes Barrow chuckle."
 
+    show PhinBarr at right
     b "Temperance by name and temperance by nature, eh, Mrs. Goodwin?"
     show TempGood at left
     g "If only we were all so aptly named. Imagine murder trials. ‘How plead you, Violence Jones?’"
+    hide PhinBarr
+    show IchaSedg at right
     "Sedgewood bleats with laughter."
     s "Say, if you’re a Mrs., where’s the Mr.? Surely you’re too young to—"
     "But her smile stiffens. No, nobody’s too young for that."
 
     g "Mr. Goodwin has passed. He was a martyr for the cause of freedom."
+    show IchaSedg at center
+    show TerrCren at right
     "Crenshaw’s eyes narrow."
     
     c "Oh? Whose freedom?"
@@ -66,6 +84,9 @@ label gen1:
     b "My friends! These are Eastern problems for Eastern politicians. We’re all neighbors now."
     c "And I want to get the measure of my neighbors."
 
+    hide IchaSedg
+    show TerrCren at center
+    show CornThat at right
     "He turns to me."
 
     # 0 = north, 1 = south, 2 = doesn't matter
@@ -96,11 +117,17 @@ label gen1:
             $ northsouth = 2
             $ FS = True
             t "Barrow’s right. I won’t be nearly drunk enough to talk politics until we get some real liquor here."
+            show PhinBarr behind CornThat:
+                xalign 1.1 yalign .9
             "Barrow claps me on the shoulder. I don’t know if I’ll ever really be used to that from a man who wears a top hat on weekends."
 
     b "Please, it’s just Phineas!"
     b "I’ll be your neighbor, too. Pacific Star’s settling me here—they’ve got big plans for this little town! The next San Francisco, right here, you’ll see!"
 
+    hide PhinBarr
+    hide TerrCren
+    hide TempGood
+    with dissolve
     "And though that’s the goal I’ve been helping him towards for months, I sit there and hope with half my heart that Barrow’s wrong."
 
     "The scream of the city and the clatter of the railway… as the night swallows the singing from the camp and the fireplace dies down, all I want is peace, quiet, a stale beer, and the glow of a job well done."
