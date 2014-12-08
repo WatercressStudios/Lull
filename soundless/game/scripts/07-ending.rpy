@@ -57,6 +57,8 @@ label goodend:
 
     "I take out my hammer. Worth a try."
 
+    return
+
     
 label badend:
     scene bg badend with fade
@@ -90,3 +92,5 @@ label badend:
     "While our neighbors are wracked with change, we are stable and content."
 
     "And now that we are Fixed, sound will never trouble us again."
+    
+    return
