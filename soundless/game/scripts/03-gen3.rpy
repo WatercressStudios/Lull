@@ -6,6 +6,8 @@ label gen3:
     with fade
     
     "CORNELIUS THATCHER, 1885"
+    
+    show GraceThat at right
 
     gt "Daddy. I heard monsters."
 
@@ -13,7 +15,9 @@ label gen3:
     
     if MT:
         "Her mother spends most of her time teaching adults to sign, but Grace gets lots of practice with her half-brothers."
-
+        
+        show CornThat old at left
+        
         "I slump down onto the couch and pull Grace onto my lap."
 
         "The couch still smells of alcohol from when Phineas Barrow used to sleep there."
@@ -24,12 +28,18 @@ label gen3:
 
     else:
         "Since her mother died, I've started bringing her to construction sites so I can practice with her during breaks."
-
+        
+        show CornThat old at left
+        
+        show PhinBarr old at center
+        
         "I point to the sleeping Phineas Barrow. After two years, he's still nesting on our couch, and still making the house reek of alcohol."
 
         b "Do you mean Phineas?"
 
         gt "No. Monsters."
+        
+        hide PhinBarr with dissolve
         
     b "Tell me about these monsters, Grace."
 
@@ -58,8 +68,11 @@ label gen3:
     gt "Have to kill the monsters."
 
     "Just then, the door-flag starts waving up and down. Grace points at the door and glares at me as if to say See?"
+
+    show GraceThat at center # with transformation from right to center
     
     if MT:
+        show TempGood old at right
         "I slide the view-window open. Temperance waggles her eyebrows at me from the other side of the door."
 
         "Grace runs to the door, eager to tell her mother about the monsters."
@@ -73,6 +86,7 @@ label gen3:
         g "He is. Let's get down there before word spreads."
             
     elif FG:
+        show TempGood old at right
         "I slide the view-window open. Temperance gives me a cheerful wave from the other side of the door."
 
         "Grace runs to the door, eager to tell Auntie Temperance about the monsters."
@@ -88,8 +102,11 @@ label gen3:
         t "Is Crenshaw back?"
 
         g "He is. Let's get down there before that pig eats every last scrap."
+        show TempGood old at offscreenright
+        hide TempGood
 
     elif FC:
+        show TerrCren old at right
         "I slide the view-window open. Terrence Crenshaw smiles serenely on the other side of the door."
 
         "Grace runs to the door, eager to tell Uncle Terrence about the monsters."
@@ -105,8 +122,11 @@ label gen3:
         t "Back from the hunt?"
 
         c "I sure am. Let's get to my place before word spreads."
+        show TerrCren old at offscreenright
+        hide TerrCren
             
     elif FS:
+        show IchaSedg old at right
         "I slide the view-window open. Ichabod gives me a cheerful nod from the other side of the door."
 
         "Grace runs to the door, eager to tell Uncle Ichabod about the monsters."
@@ -122,9 +142,12 @@ label gen3:
         t "Is Crenshaw back?"
 
         s "He is. Let's get down there before word spreads."
+        show IchaSedg old at offscreenright
+        hide IchaSedg
     
     # Doesn't Matter in first scene. I don't care either.
     else: 
+        show IchaSedg old at right
         "I slide the view-window open. Ichabod gives me a nod from the other side of the door."
 
         "Grace hovers in the back of the room."
@@ -132,6 +155,11 @@ label gen3:
         t "Is Crenshaw back?"
 
         s "He is. Let's get down there before word spreads."
+        
+        show IchaSedg old at offscreenright
+        hide IchaSedg
+    
+    show CornThat old at right #translation from left to right
     
     "Grace tugs my sleeve."
 
@@ -151,6 +179,8 @@ label gen3:
         b "Food soon. Food real soon."
 
         "She nods and resumes her watch by the door."
+
+    scene bg gen3 with fade # clear all characters
         
     "Day breaks over the Crenshaw homestead."
 
@@ -165,11 +195,15 @@ label gen3:
         
     "Terrence Crenshaw watches from a rocking chair on his front porch. Temperance and I linger on the porch next to him."
 
+    show CornThat old at left
     c "Been a while since we've had the old crowd in one place."
+
+    show TerrCren old at right
 
     t "Except that bum Barrow."
     
     if MT:
+        show TempGood old at center
         g "May the Lord rest his soul."
 
         "Her face briefly wrinkles with guilt."
@@ -197,7 +231,11 @@ label gen3:
     c "Lecture concluded. Now for the object lesson."
 
     "Temperance and I peer over the bannister and spot the last animals lashed to the mules: two humans, their chests pitted with shot."
-
+    
+    hide TempGood
+    hide CornThat
+    show IchaSedg old at left
+    
     s "DAMN FUCK WHY WHO KILL"
 
     c "You're not making any sense, Ichabod. Write it out."
@@ -243,11 +281,16 @@ label gen3:
     c "I asked them here to bear witness, Ichabod. Respected, beloved… they will tell of what you do here."
 
     s "Good. Let nobody doubt that Ichabod Sedgewood looks after his own."
+    
+    show TempGood old at center with dissolve
 
     if MT:
         "And then Temperance Goodwin Thatcher steps forward, and without signing a word, walks between the rows of pointed guns."
     else:
         "And then Temperance Goodwin steps forward, and without signing a word, walks between the rows of pointed guns."
+        
+    hide TempGood with dissolve
+    show CornThat old at center
     
     # meaning: 1 = success, 0 = failure, -1 = crenshaw failure
     $ gen3_success = 0
@@ -278,6 +321,8 @@ label gen3:
             t "Go back inside. I don't want to see you bury any more sons."
             $ gen3_success = -1
             
+    # at this point, IchaSedg at left, CornThat at center, TerrCren at right
+            
     if gen3_success > 0:
         $ unity += 1
         "Ichabod's mouth opens and he tries to say something to me. He tries to speak again. And then he crumbles in on himself."
@@ -289,7 +334,15 @@ label gen3:
         s "Another day."
         
         if MT:
+            hide IchaSedg
+            hide TerrCren
+            show CornThat old at right
+            show TempGood old at left
             "Once the Crenshaw homestead is a speck in the distance, I take Temperance in my arms and hold her for a long time."
+            
+            # translation of sprites needed
+            show TempGood old at center
+            show GraceThat at left
 
             "When I get home, Grace is still keeping watch on the door."
 
@@ -316,6 +369,8 @@ label gen3:
 
             "Ichabod gives him a sad smile."
             s "They're my boys, Terrence. Love 'em like my own sons."
+        
+        scene bg black with fade #hide EVERYTHING
         
         "I grab Temperance by the arm and put every ounce of strength into my legs."
 

@@ -29,6 +29,7 @@ image bg gen7 = "images/bg_gen7.png"
 image bg gen8 = "images/bg_gen8.png"
 image bg goodend = "images/bg_gen9_goodend.png"
 image bg badend = "images/bg_gen9_badend.png"
+image bg black = Solid("#000")
 
 ## Character Sprites
 image AlexThat = Image("images/chars/AlexThat.png")
@@ -47,6 +48,7 @@ image GraceThat = Image("images/chars/GraceThat.png")
 
 # this guy starts out as mid
 image IchaSedg = Image("images/chars/IchaSedgmid.png")
+image IchaSedg mid = Image("images/chars/IchaSedgmid.png")
 image IchaSedg old = Image("images/chars/IchaSedgold.png")
 
 image JareCren = Image("images/chars/JareCren.png")
@@ -89,6 +91,11 @@ define c2 = Character('Jared Crenshaw', color="#FFCC00")
 define g2 = Character('Kathleen Goodwin', color="#FF0099")
 define s2 = Character('Dave Sedgewood', color="#00CC00")
 
+# Act 2 minor
+define dad = Character('Dad', color="#004A7F")
+define ts = Character('Theodore Sedgewood', color="#FFB600")
+define man = Character('Man', color="#990000")
+
 # The game begins here.
 label start:
     # Variable declarations (so we can keep track of which vars we are using)
@@ -98,6 +105,10 @@ label start:
         
         northsouth = 0 
         gen3_success = 0 # whether ppl be ded
+        
+        gen5_radical = False
+        
+        gen6_wait = 0
         
         # For the below:
         MT = False # Married Temperance (North + Flirt)

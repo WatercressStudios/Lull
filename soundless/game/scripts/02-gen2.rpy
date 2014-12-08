@@ -18,7 +18,7 @@ label gen2:
     
     # if answered North
     if northsouth == 0:
-        show TempGood at right
+        show TempGood mid at right
         with dissolve
         "I open the door. Temperance Goodwin's on the other side, covering her eyes with her hand."
         
@@ -27,7 +27,7 @@ label gen2:
             "Flirt":
                 $ MT = True
 
-                show CornThat at left
+                show CornThat mid at left
                 with dissolve
                 t "You've never dreamt of seeing me in my long johns, Temperance?"
 
@@ -40,7 +40,7 @@ label gen2:
             "Be respectful":
                 $ FG = True
                 
-                show CornThat at left
+                show CornThat mid at left
                 with dissolve
                 
                 t "Long johns is decent among friends, Temperance."
@@ -69,7 +69,7 @@ label gen2:
 
         "A \"Lull\" would end. And ever since the world started going quiet, it has shown no sign of reversing course."
         
-        show TempGood at right
+        show TempGood mid at right
         with dissolve
 
         "When we arrive at Barrow's office, a crowd has already gathered."
@@ -87,8 +87,8 @@ label gen2:
         hide TempGood
         
     elif northsouth == 1:
-        show CornThat at left
-        show TerrCren at right
+        show CornThat mid at left
+        show TerrCren mid at right
         with dissolve
 
         "I open the door. Terrence Crenshaw's on the other side, impatiently bouncing his leg up and down like his kneecap's trying to escape."
@@ -118,7 +118,7 @@ label gen2:
 
         "A \"Lull\" would end. And ever since the world started going quiet, it has shown no sign of reversing course."
         
-        show TerrCren at right
+        show TerrCren mid at right
         with dissolve
 
         "When we arrive at Barrow's office, a crowd has already gathered."
@@ -137,8 +137,8 @@ label gen2:
         
     # northsouth == 3: Doesn't matter
     else:
-        show CornThat at left
-        show IchaSedg at right
+        show CornThat mid at left
+        show IchaSedg mid at right
         with dissolve
         
         "I open the door. Ichabod Sedgewood's on the other side, shuffling his feet nervously. He perks up and gives a toothy grin when he sees me."
@@ -173,7 +173,7 @@ label gen2:
 
         "A \"Lull\" would end. And ever since the world started going quiet, it has shown no sign of reversing course."
         
-        show IchaSedg at right
+        show IchaSedg mid at right
         with dissolve
 
         "When we arrive at Barrow's office, a crowd has already gathered."
@@ -190,7 +190,7 @@ label gen2:
         
         hide IchaSedg
     
-    show PhinBarr at right
+    show PhinBarr mid at right
     with dissolve
     "Barrow's office smells like sweat. He pumps my hand up and down."
 
@@ -231,7 +231,7 @@ label gen2:
 
     c "The stock market's in shambles. The railways aren't safe. Nobody knows what's up or down or if they'll be able to hear themselves talk tomorrow."
 
-    show TerrCren at left
+    show TerrCren mid at left
     c "And Pacific Star is going to leave us in the lurch."
 
     "Barrow looks miserable."
@@ -243,7 +243,7 @@ label gen2:
     "A dense silence falls around the table. Ichabod Sedgewood rushes to fill it by clearing his throat loudly."
     
     hide TerrCren
-    show IchaSedg at left
+    show IchaSedg mid at left
 
     s "We made do before the railway. We'll make do after."
 
@@ -255,12 +255,12 @@ label gen2:
 
     if MT:
         hide IchaSedg
-        show CornThat at left
+        show CornThat mid at left
         t "You've a nice caboose already, Temperance."
 
         "She swats me on the arm, hard enough to sting. Ichabod stifles a cackle."
         hide CornThat
-        show IchaSedg at left
+        show IchaSedg mid at left
         
     hide IchaSedg
     hide TempGood
@@ -269,11 +269,11 @@ label gen2:
 
     b "One of my favorites is sitting in a railyard in Kansas now: an entire cancelled shipment of preserved pork. It'll last halfway to forever and it's just the thing to keep a hungry settlement growing."
 
-    show TerrCren at left
+    show TerrCren mid at left
     c "Sold. Let's take it."
 
     hide TerrCren
-    show IchaSedg at left
+    show IchaSedg mid at left
     s "Hold your horses, boy! What other options do we have?"
 
     b "Well, this is a strange one, but appropriate given the… ah… circumstances."
@@ -294,7 +294,7 @@ label gen2:
 
     b "Thatcher?"
     hide IchaSedg
-    show CornThat at left
+    show CornThat mid at left
 
     menu:
         c "Come on, Thatcher, let's make this a proper consensus."
@@ -308,7 +308,7 @@ label gen2:
                 g "I don't know if it'll be that simple. Without communication, civilization cannot stand."
                 g "I trust you'll bear that in mind, Cornelius. I support the group's decision."
                 hide CornThat
-                show TerrCren at left
+                show TerrCren mid at left
                 c "It's so refreshing to see our schoolmarm listen to reason."
                 $ unity += 1
 
@@ -316,7 +316,7 @@ label gen2:
             elif northsouth == 1:
                 $ FC = True
                 hide TempGood
-                show TerrCren
+                show TerrCren mid at center
                 g "How shortsighted can you people be? Are we expected to grunt at each other like savages?"
                 c "My, my, Cornelius, our schoolmarm is all a-fluster. Perhaps she needs to calm down at home."
                 "Mrs. Goodwin balls her fists as if to strike Crenshaw, then forces herself away and storms out of the room without a word."
@@ -326,7 +326,7 @@ label gen2:
             else:
                 g "How shortsighted can you people be? Are we expected to grunt at each other like savages?"
                 hide CornThat
-                show IchaSedg
+                show IchaSedg mid at center
                 s "C'mon, Temperance, we're only trying to be practical."
                 g "God have mercy, this town will choke on your practicality."
 
@@ -340,7 +340,7 @@ label gen2:
             $ openness += 2
 
             hide TempGood
-            show TerrCren
+            show TerrCren mid at center
 
             # IF FLIRTING WITH TEMPERANCE
             if MT:
@@ -358,7 +358,7 @@ label gen2:
                 c "I always rather suspected my friend Cornelius was the sort to be ordered around by a schoolmarm."
 
             hide CornThat
-            show IchaSedg at left
+            show IchaSedg mid at left
             "Sedgewood shuffles his feet and chews his knuckles."
             s "Mr. Barrow, sir? I'd like to change my vote."
             s "My fields are strong, and they'll feed us for years. Better the devil I know-- I'll take the paper."
