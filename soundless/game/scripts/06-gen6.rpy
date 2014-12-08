@@ -23,8 +23,13 @@ label gen6:
     "As I pass through the trees, I see Kathleen Goodwin crouched on a rock, signing out orders to a couple dozen men wearing the Goodwin colors."
 
     "Her husband, some distant Crenshaw, is binding a burn on her leg."
+    
+    show KathGood mid at left
+    with dissolve
 
     g2 "Jesus, not the Thatchers, too."
+    
+    show AlexThat mid at right
 
     "Kathleen stands to greet me."
 
@@ -53,6 +58,9 @@ label gen6:
     g2 "You'll see on the way into town."
 
     g2 "My grandfather's been in contact with the Crenshaws. They'll be making their own way into town to join up with us, hopefully."
+    
+    hide KathGood
+    hide AlexThat
 
     "I follow Kathleen's men down Old Mule Road into town. Sedgewoods dangle from trees on either side of the road. I try not to recognize any of them."
 
@@ -68,7 +76,11 @@ label gen6:
 
     "The strange pressure keeps coming in waves. I knead my forehead with my hands."
 
+    show KathGood mid at left
+
     g2 "You sure Thatcher's still in there? I don't want to pick a fight before the other houses get here unless we have to."
+    
+    show AlexThat at right
 
     t2 "He was there two hours ago with a few of my uncles. I can't be sure what's happened since then."
 
@@ -103,6 +115,8 @@ label gen6:
         # 1 succeeds if Unity >= 2. Option 2 always has the same outcome.
         "Wait for reinforcements":
             t2 "They've made it this long holed up in the post office. Let's wait for the Crenshaws and do this rescue right."
+            hide KathGood
+            hide AlexThat
             "Kathleen nods and dispatches scouts to report if they see reinforcements coming."
             "Five minutes pass, then ten."
             "And then an orange glow cuts through the smoke."
@@ -118,11 +132,14 @@ label gen6:
             $ gen6_wait = -1
             $ openness += 1
             t2 "We don't have time to gamble on Crenshaws. Let's move."
+            hide KathGood
+            hide AlexThat
             "The Goodwin men take up positions around the street and begin firing into the smoke."
             "I don't know how they can see where they're aiming, but apparently they hit something, because bullets start chipping the walls behind us."
             "I duck my head and run, hugging the side of the post office."
             "A bullet nicks my leg. I keep dragging myself across the brick wall as blood pools in my sock. Almost there."
             "As soon as I reach the post office door I start yanking the chain for the door-flag. The view window slides open."
+            show AlexThat mid at right
             t2 "It's a friend of Cornelius! Friend of Cornelius!"
             "The door opens just a crack and I slip inside."
             "My father's men lead me to him."
@@ -146,6 +163,7 @@ label gen6_waitsuccess:
     $ openness += 2
     "As I round the corner, I run headlong into someone. He staggers back and levels a rifle at me."
     "I'm about to reach for my revolver, but then I notice the red and brown pin on his lapel."
+    show AlexThat mid at right
     t2 "Thatcher! I'm Alexander Thatcher!"
     "The man lowers his gun and bows."
     man "Apologies, sir. Thaddeus Crenshaw sends his compliments, and hopes you find your father well."
