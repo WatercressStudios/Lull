@@ -31,7 +31,47 @@ image bg goodend = "images/bg_gen9_goodend.png"
 image bg badend = "images/bg_gen9_badend.png"
 
 ## Character Sprites
-image TempGood = Image("images/chars/TempGood.png", yalign=0.5)
+image AlexThat = Image("images/chars/AlexThat.png")
+image AlexThat mid = Image("images/chars/AlexThatmid.png")
+image AlexThat old = Image("images/chars/AlexThatold.png")
+
+image CornThat = Image("images/chars/CornThat.png")
+image CornThat mid = Image("images/chars/CornThatmid.png")
+image CornThat old = Image("images/chars/CornThatold.png")
+
+image DaveSedg = Image("images/chars/DaveSedg.png")
+image DaveSedg mid = Image("images/chars/DaveSedg.png")
+image DaveSedg old = Image("images/chars/DaveSedg.png")
+
+image GraceThat = Image("images/chars/GraceThat.png")
+
+# this guy starts out as mid
+image IchaSedg = Image("images/chars/IchaSedgmid.png")
+image IchaSedg old = Image("images/chars/IchaSedgold.png")
+
+image JareCren = Image("images/chars/JareCren.png")
+image JareCren mid = Image("images/chars/JareCrenmid.png")
+image JareCren old = Image("images/chars/JareCrenold.png")
+
+image KathGood = Image("images/chars/KathGood.png")
+image KathGood mid = Image("images/chars/KathGoodmid.png")
+image KathGood old = Image("images/chars/KathGoodold.png")
+
+image PhinBarr = Image("images/chars/PhinBarr.png")
+image PhinBarr mid = Image("images/chars/PhinBarrmid.png")
+image PhinBarr old = Image("images/chars/PhinBarrold.png")
+
+image PhinBarr7 = Image("images/chars/PhinBarr7.png")
+image PhinBarr7 mid = Image("images/chars/PhinBarr7mid.png")
+image PhinBarr7 old = Image("images/chars/PhinBarr7old.png")
+
+image TempGood = Image("images/chars/TempGood.png")
+image TempGood mid = Image("images/chars/TempGoodmid.png")
+image TempGood old = Image("images/chars/TempGoodold.png")
+
+image TerrCren = Image("images/chars/TerrCren.png")
+image TerrCren mid = Image("images/chars/TerrCrenmid.png")
+image TerrCren old = Image("images/chars/TerrCrenold.png")
 
 # Character declaration.
 # ACT ONE MAIN.
