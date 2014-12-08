@@ -326,7 +326,7 @@ label gen2:
             else:
                 g "How shortsighted can you people be? Are we expected to grunt at each other like savages?"
                 hide CornThat
-                show IchaSedg mid at center
+                show IchaSedg mid at left
                 s "C'mon, Temperance, we're only trying to be practical."
                 g "God have mercy, this town will choke on your practicality."
 
