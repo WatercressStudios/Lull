@@ -248,7 +248,7 @@ label gen2:
                 $ unity += 1
 
             # IF FRIENDS WITH CRENSHAW
-            elif northsouth = 1:
+            elif northsouth == 1:
                 $ FC = True
                 g "How shortsighted can you people be? Are we expected to grunt at each other like savages?"
                 c "My, my, Cornelius, our schoolmarm is all a-fluster. Perhaps she needs to calm down at home."

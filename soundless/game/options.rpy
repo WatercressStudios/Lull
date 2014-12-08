@@ -28,7 +28,7 @@ init -1 python hide:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "soundless"
-    config.version = "0.1-pre3"
+    config.version = "0.1-pre4"
 
     #########################################
     # Themes
