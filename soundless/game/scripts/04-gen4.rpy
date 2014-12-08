@@ -23,6 +23,10 @@ label temperance_scene:
         "I lie in the grass, and Temperance lays her head across my chest."
     else:
         "I sit in the grass, and Temperance sits across from me."
+        
+    show CornThat old at left
+    show TempGood old at right
+    with dissolve
     
     t "Sometimes I like the silence."
 
@@ -49,6 +53,8 @@ label temperance_scene:
     return
     
 label ichabod_scene:
+    show IchaSedg old at right
+    show CornThat old at left
     "Ichabod leans against a tree to catch his breath. He can't walk as far as he used to."
 
     "I lean next to him. He's looking up into the tree."
@@ -83,6 +89,8 @@ label ichabod_scene:
     
     
 label terrence_scene:
+    show CornThat old at right
+    show TerrCren old at left
     "When I arrive at the Crenshaw homestead, Terrence is collapsed in a heap on the porch, drunk and shouting. His cane lies broken beneath him."
 
     "He screams and swears and rants until he's out of breath, then sucks in more air and does it again, all without making a sound."
@@ -100,6 +108,7 @@ label terrence_scene:
     return
     
 label negotiation_scene:
+    scene bg gen4
     "The four of us sit around a table for the last time."
 
     "Temperance, sagging and grey. Ichabod, too arthritic to sign three words in a row. Terrence, tapping his cane and squinting his bloodshot eyes."
@@ -115,12 +124,17 @@ label negotiation_scene:
     "We divide the Sedgewood lands between ourselves. With half the town working as his sharecroppers, the line between farmer and king was growing dangerously thin."
 
     if MT:
+        show TempGood old at left
+        with dissolve
         if GM:
             "My land will pass to Grace, and Temperance's land will pass to her first son Silas."
         else:
             "My land will pass to Aaron, and Temperance's land will pass to her first son Silas."
+        hide TempGood with dissolve
 
     "It doesn't keep the other families from grumbling about me getting two shares, but they accept it as necessary to preserve the balance of power."
+
+    scene bg gen4 with fade # clear everything
 
     "Then we eat dinner."
 
@@ -131,6 +145,8 @@ label negotiation_scene:
     "Ichabod and Terrence stare each other down and raise each other's bets and try to forget how many of each other's family members they've killed."
 
     "I wander home drunk and full and happy."
+
+    scene bg gen4 with fade # clear everything
 
     if not GM: # didn't get meat therefore Grace died
         "The next morning, I visit Grace's grave."

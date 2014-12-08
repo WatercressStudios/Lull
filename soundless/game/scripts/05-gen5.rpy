@@ -1,5 +1,5 @@
 label gen5:
-    scene bg_gen6
+    scene bg gen6
     with fade
     
     "ALEXANDER THATCHER, 1995"
@@ -8,6 +8,7 @@ label gen5:
 
     "I have to squeeze my hands past both of them to sign."
 
+    show AlexThat at right
     t2 "You're not even going to look at my speech?"
 
     dad "You're a man of the Thatchers now, Alex. If I didn't trust you to be responsible, I'd have asked you to stand in the back and smile."
@@ -27,6 +28,7 @@ label gen5:
     "He kisses me on the back of the head and leaves to finish getting ready."
 
     # -------
+    scene bg gen6
 
     "I take the stage with young heirs of the other founding families."
 
@@ -34,17 +36,28 @@ label gen5:
 
     "Dave turns his body to hide his signing from the crowd."
 
+    show AlexThat at center
+
     s2 "You look like a penguin."
 
     "I laugh and flip him the bird."
+    
+    hide AlexThat
+    show PhinBarr7 at center
 
     "I've met Phineas Barrow (the seventh, I think?) at social functions before. We bow to each other and he signs what a phenomenal honor it is to see me again. Seems a bit excessive."
 
+    hide PhinBarr7
+    show JareCren at center
+
     "I only ever see Jared Crenshaw at events like this. He bows deeply, but seems a bit chilly. Might just be nerves."
+    
+    hide JareCren
+    show TheoSedg at left
 
     "Theodore Sedgewood takes center stage and launches into a speech about our town's history."
 
-    "He stands at the podium signing, and ten of his sharecroppers positioned on platforma around the audience repeat his signs so that everyone can see the speech."
+    "He stands at the podium signing, and ten of his sharecroppers positioned on platforms around the audience repeat his signs so that everyone can see the speech."
 
     "He always makes a couple jokes about current events, but other than that it's the same speech every year."
 
@@ -54,6 +67,8 @@ label gen5:
 
     ts "Terrence Crenshaw, a hunter and warrior of immense daring. Not always on good terms with my family…"
 
+    show JareCren at right
+
     if unity >= 2:
         "He turns and pulls an exaggerated scowl at Jared Crenshaw. The crowd waggles their hands in laughter."
 
@@ -61,6 +76,8 @@ label gen5:
         "He turns and pulls an exaggerated scowl at Jared Crenshaw."
             
         "A couple people in the crowd waggle their hands in laughter, but the response is muted. Still too much bad blood there to find it funny."
+        
+    hide JareCren
 
     if gen3_success > 0:
         ts "But in the end, their friendship shone through and brought us lasting peace."
@@ -81,15 +98,26 @@ label gen5:
         "Kathleen Goodwin leans over and signs to me."
         g2 "Every year I tell that bastard to put Temperance in the speech, and every year he tells me he's going to."
         if MT:
+            show AlexThat at right
             t2 "He's just jealous that Temperance gets two whole founding families to herself."
+            hide AlexThat
 
     ts "And, of course, Phineas Barrow, the railwayman who had faith in this land and led our forefathers here. Could everyone named Phineas Barrow please stand up?"
 
+    show PhinBarr7 at right
+
     "Around ten Phineas Barrows stand and grin at each other. The crowd waggles their hands in laughter."
+    
+    hide PhinBarr7
 
     "My attention drifts as Theodore Sedgewood's speech trickles out into repetition and platitude."
 
     ts "But this year, we have three fine young men and women ready to join our town as Men of the Houses!"
+
+    hide TheoSedg
+    show KathGood at right
+    show DaveSedg at center
+    show AlexThat at left
 
     "I leap to my feet. Kathleen Goodwin and Dave Sedgewood and I hold hands and raise them in the air."
 
@@ -97,6 +125,10 @@ label gen5:
 
     if MT:
         "The Thatchers and the Goodwins might be cousins, but sometimes you fight most fiercely within your own family."
+        
+    hide KathGood
+    hide DaveSedg
+    with dissolve
 
     ts "I am proud to introduce a new Man of the Thatchers: Alexander Thatcher!"
 
@@ -133,8 +165,11 @@ label gen5:
             "But it's the back of the crowd that I'm looking at, where the sharecroppers stand."
             "The sharecroppers look around and sign to each other, unsure if they're allowed to applaud."
             "Of course they all want land reform, but it's the sort of thing nobody talks about in public except a couple eccentric Goodwins."
+            show DaveSedg at center
+            show KathGood at right
             "Dave Sedgewood shakes his head in wonder as I retake my seat. Kathleen Goodwin gives me a hidden thumbs-up."
             
+            scene bg gen6
             "I don't see my father after the ceremony, or even when I get back to the estate, but I find a message from him on my desk."
             dad "So you've come out in support of land reform. The sharecroppers will love you."
             dad "Maybe they'll love you so much that they'll kill me so you can take over the Thatcher family."
