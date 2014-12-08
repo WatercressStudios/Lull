@@ -1,5 +1,5 @@
 label ending:
-    hide bg with fade
+    show bg black with fade
     "ALEXANDER THATCHER, 2045"
     # decide whether good/bad ending and jump to relevant ending
     if openness >= 3:
