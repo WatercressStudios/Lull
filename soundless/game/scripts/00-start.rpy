@@ -27,11 +27,11 @@ image bg gen5 = "images/bg_gen5.png"
 image bg gen6 = "images/bg_gen6.png"
 image bg gen7 = "images/bg_gen7.png"
 image bg gen8 = "images/bg_gen8.png"
-image bg goodend = "bg_gen9_goodend.png"
-image bg badend = "bg_gen9_badend.png"
+image bg goodend = "images/bg_gen9_goodend.png"
+image bg badend = "images/bg_gen9_badend.png"
 
 ## Character Sprites
-
+image TempGood = Image("images/chars/TempGood.png", yalign=0.5)
 
 # Character declaration.
 # ACT ONE MAIN.

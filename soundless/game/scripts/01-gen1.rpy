@@ -46,6 +46,7 @@ label gen1:
     "While we’re all sipping the only beer I remember the taste of, Mrs. Goodwin nurses a pint of water. Makes Barrow chuckle."
 
     b "Temperance by name and temperance by nature, eh, Mrs. Goodwin?"
+    show TempGood at left
     g "If only we were all so aptly named. Imagine murder trials. ‘How plead you, Violence Jones?’"
     "Sedgewood bleats with laughter."
     s "Say, if you’re a Mrs., where’s the Mr.? Surely you’re too young to—"

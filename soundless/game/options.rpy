@@ -119,6 +119,18 @@ init -1 python hide:
     ## and padding.
 
     # style.window.yminimum = 250
+    
+    style.window.xpos = 400
+    style.window.ypos = 150
+    
+    # Move the Skip Mode indicator to bottom right
+    #old_skip_indicator = skip_indicator
+    #def skip_indicator():
+    #    style.skip_indicator.xpos = 800-max([170 if config.skipping == "fast" else 125])
+    #    old_skip_indicator()
+    
+    # moves Skip Mode indicator to bottom left instead of top left
+    style.skip_indicator.ypos = 600-33
 
 
     #########################################
@@ -287,6 +299,7 @@ init -1 python hide:
 
     #########################################
     ## More customizations can go here.
+
 
 
 ## This section contains information about how to build your project into
