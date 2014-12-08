@@ -1,4 +1,7 @@
 label gen4:
+    scene bg gen4
+    with fade
+    
     "CORNELIUS THATCHER, 1895"
 
     if gen3_success > 0: # peaceful resolution in gen3
