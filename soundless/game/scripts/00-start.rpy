@@ -29,6 +29,7 @@ image bg gen7 = "images/bg_gen7.png"
 image bg gen8 = "images/bg_gen8.png"
 image bg goodend = "images/bg_gen9_goodend.png"
 image bg badend = "images/bg_gen9_badend.png"
+image bg black = Solid("#000")
 
 ## Character Sprites
 image AlexThat = Image("images/chars/AlexThat.png")
@@ -47,6 +48,7 @@ image GraceThat = Image("images/chars/GraceThat.png")
 
 # this guy starts out as mid
 image IchaSedg = Image("images/chars/IchaSedgmid.png")
+image IchaSedg mid = Image("images/chars/IchaSedgmid.png")
 image IchaSedg old = Image("images/chars/IchaSedgold.png")
 
 image JareCren = Image("images/chars/JareCren.png")

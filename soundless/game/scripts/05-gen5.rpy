@@ -1,4 +1,7 @@
 label gen5:
+    scene bg_gen6
+    with fade
+    
     "ALEXANDER THATCHER, 1995"
 
     "My father buttons my coat while one of our sharecroppers brushes my hair."

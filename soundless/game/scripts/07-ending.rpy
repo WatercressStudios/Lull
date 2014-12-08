@@ -1,4 +1,5 @@
 label ending:
+    hide bg with fade
     "ALEXANDER THATCHER, 2045"
     # decide whether good/bad ending and jump to relevant ending
     if openness >= 3:
@@ -7,6 +8,9 @@ label ending:
         jump badend
         
 label goodend:
+    scene bg goodend
+    with fade
+
     "These days, the world no longer has time for our town."
 
     "It was an agrarian throwback in an industrial world."
@@ -55,6 +59,8 @@ label goodend:
 
     
 label badend:
+    scene badend with fade
+    
     "The Fathers' Day parade was good this year. Everyone still remembers that disaster from ten years back when they tried to work instruments into the parade."
 
     "People didn't ask for sound to come back, and they weren't ready for it. Even before the Fix, most of us went around with earplugs."
