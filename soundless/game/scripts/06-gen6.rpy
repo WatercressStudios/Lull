@@ -1,5 +1,5 @@
 label gen6:
-    scene bg_gen7
+    scene bg gen7
     with fade
     
     "ALEXANDER CRENSHAW, 2005"

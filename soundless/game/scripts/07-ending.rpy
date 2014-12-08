@@ -59,7 +59,7 @@ label goodend:
 
     
 label badend:
-    scene badend with fade
+    scene bg badend with fade
     
     "The Fathers' Day parade was good this year. Everyone still remembers that disaster from ten years back when they tried to work instruments into the parade."
 
