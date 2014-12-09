@@ -98,6 +98,7 @@ define man = Character('Man', color="#990000")
 
 # The game begins here.
 label start:
+    stop music fadeout 1.0
     # Variable declarations (so we can keep track of which vars we are using)
     python:
         unity = 0
