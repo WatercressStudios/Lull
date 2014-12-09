@@ -4,9 +4,10 @@ label ending:
     "ALEXANDER THATCHER, 2045"
     # decide whether good/bad ending and jump to relevant ending
     if openness >= 3:
-        jump goodend
+        call goodend
     else:
-        jump badend
+        call badend
+    jump credits
         
 label goodend:
     play music "snd/goodend.ogg"
