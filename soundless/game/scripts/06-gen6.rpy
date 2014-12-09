@@ -4,7 +4,7 @@ label gen6:
     scene bg gen7
     with fade
     
-    "ALEXANDER CRENSHAW, 2005"
+    "ALEXANDER THATCHER, 2005"
 
     "The fields are full of smoke."
 
