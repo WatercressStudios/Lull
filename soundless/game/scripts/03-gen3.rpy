@@ -35,13 +35,13 @@ label gen3:
         
         "I point to the sleeping Phineas Barrow. After two years, he's still nesting on our couch, and still making the house reek of alcohol."
 
-        b "Do you mean Phineas?"
+        t "Do you mean Phineas?"
 
         gt "No. Monsters."
         
         hide PhinBarr with dissolve
         
-    b "Tell me about these monsters, Grace."
+    t "Tell me about these monsters, Grace."
 
     gt "Down. Outside. Horse."
     
@@ -51,7 +51,7 @@ label gen3:
 
         "I lay my hand on hers."
 
-        b "Don't use paper, Gracie. Practice the signs."
+        t "Don't use paper, Gracie. Practice the signs."
         
     # Got Meat
     else:
@@ -59,9 +59,9 @@ label gen3:
 
         gt "Paper. Paper."
 
-        b "Sorry, Gracie. No more paper."
+        t "Sorry, Gracie. No more paper."
     
-    b "You should sleep. If you sleep more, you won't need as much food."
+    t "You should sleep. If you sleep more, you won't need as much food."
 
     "She kneads her forehead and shakes her head in frustration."
 
@@ -168,18 +168,18 @@ label gen3:
 
     gt "Food?"
 
-    b "I'm going to get food."
+    t "I'm going to get food."
 
     gt "Food?"
 
     # Got Meat in Scene 2
     if GM:
-        b "If you're really hungry, you can have one pork strip. Just one!"
+        t "If you're really hungry, you can have one pork strip. Just one!"
 
         "She nods gleefully and charges down to the cellar."
     # Got Paper
     else:
-        b "Food soon. Food real soon."
+        t "Food soon. Food real soon."
 
         "She nods and resumes her watch by the door."
 
