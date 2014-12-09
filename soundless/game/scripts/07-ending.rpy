@@ -1,4 +1,5 @@
 label ending:
+    stop music fadeout 1.0
     scene bg black with fade
     "ALEXANDER THATCHER, 2045"
     # decide whether good/bad ending and jump to relevant ending
@@ -8,6 +9,7 @@ label ending:
         jump badend
         
 label goodend:
+    play music "snd/goodend.ogg"
     scene bg goodend
     with fade
 
@@ -61,7 +63,9 @@ label goodend:
 
     
 label badend:
-    scene bg badend with fade
+    play music "snd/badend.ogg"
+    scene bg badend
+    with fade
     
     "The Fathers' Day parade was good this year. Everyone still remembers that disaster from ten years back when they tried to work instruments into the parade."
 
