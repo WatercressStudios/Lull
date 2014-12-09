@@ -1,0 +1,1 @@
+{"layout": null, "name": "Lull", "package": "com.watercressstudios.lull", "orientation": "landscape", "include_pil": false, "expansion": false, "source": false, "icon_name": "Lull", "version": "v1.0", "target_version": 8, "permissions": ["VIBRATE"], "include_sqlite": false, "store": "none", "numeric_version": "1"}
