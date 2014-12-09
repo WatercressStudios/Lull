@@ -28,7 +28,7 @@ init -1 python hide:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "lull"
-    config.version = "1.0alpha2"
+    config.version = "1.0alpha3"
 
     #########################################
     # Themes
