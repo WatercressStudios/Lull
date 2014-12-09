@@ -27,8 +27,8 @@ init -1 python hide:
 
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
-    config.name = "soundless"
-    config.version = "0.1-pre7"
+    config.name = "lull"
+    config.version = "1.0beta1"
 
     #########################################
     # Themes
@@ -275,7 +275,7 @@ init -1 python hide:
     ## stored. (It needs to be set early, before any other init code
     ## is run, so the persistent information can be found by the init code.)
 python early:
-    config.save_directory = "soundless-1417841602"
+    config.save_directory = "lull-1417841602"
 
 init -1 python hide:
     #########################################
@@ -309,12 +309,12 @@ init python:
     ## The name that's used for directories and archive files. For example, if
     ## this is 'mygame-1.0', the windows distribution will be in the
     ## directory 'mygame-1.0-win', in the 'mygame-1.0-win.zip' file.
-    build.directory_name = "soundless-0.1"
+    build.directory_name = "lull-0.1"
 
     ## The name that's uses for executables - the program that users will run
     ## to start the game. For example, if this is 'mygame', then on Windows,
     ## users can click 'mygame.exe' to start the game.
-    build.executable_name = "soundless"
+    build.executable_name = "lull"
 
     ## If True, Ren'Py will include update information into packages. This
     ## allows the updater to run.
