@@ -24,6 +24,9 @@ init -1 python hide:
     ## running in a window.
 
     config.window_title = u"Lull"
+    
+    config.window_icon = "images/windowicon.png"
+    config.windows_icon = "images/windowsicon.png"
 
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
