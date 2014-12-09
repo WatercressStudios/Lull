@@ -1,4 +1,6 @@
 label gen4:
+    stop music fadeout 1.0
+    # Silence (no music)
     scene bg gen4
     with fade
     

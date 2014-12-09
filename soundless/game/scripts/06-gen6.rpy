@@ -1,4 +1,6 @@
 label gen6:
+    # Bridging Tonality
+    queue music "snd/bridging-tonality.ogg"
     scene bg gen7
     with fade
     

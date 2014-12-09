@@ -1,4 +1,7 @@
 label gen2:
+    stop music fadeout 1.0
+    # Soundless Melody (Solo Piano)
+    play music "snd/soundless-melody-solo-piano.ogg"
     scene bg gen2
     with fade
 

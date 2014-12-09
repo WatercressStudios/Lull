@@ -1,4 +1,6 @@
 label gen1:
+    # Soundless Melody
+    play music "snd/soundless-melody-reorchestrated.ogg"
     scene bg gen1_day
     with fade
 

@@ -2,6 +2,9 @@
 # SCENE THREE. 1885.
 
 label gen3:
+    stop music fadeout 1.0
+    # Soundless Melody (Solo Melody)
+    play music "snd/soundless-melody-solomelody.ogg"
     scene bg gen3
     with fade
     
