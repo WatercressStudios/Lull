@@ -25,7 +25,7 @@ android-xxhdpi-icon.png:
 	mv $(output)/$(input_filename) $(output)/$@
 
 install: all
-	cp $(output)/android-*-icon.png $(installdir)
+	cp $(output)/android-*icon.png $(installdir)
 
 uninstall:
 	rm $(installdir)/android-*icon.png
