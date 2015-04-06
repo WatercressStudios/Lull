@@ -1,6 +1,6 @@
 soundless-game
 ==============
-Our entry for Ludum Dare 31.
+Our entry for [Ludum Dare 31.](http://ludumdare.com/compo/ludum-dare-31/?action=preview&uid=45841)
 
 Check the Releases tab for releases.
 
